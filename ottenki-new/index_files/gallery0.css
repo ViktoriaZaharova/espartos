@@ -1,0 +1,45 @@
+.lg.bigPictureAvailable .lg-image {
+	cursor: zoom-in;
+}
+
+.lg.bigPictureLoading .lg-image {
+	cursor: wait;
+	opacity: .7 !important;
+}
+
+.lg-actions .lg-icon {
+	transition: all .3s;
+}
+
+.lg-toolbar .lg-close:after {
+	content: "\00d7";
+}
+
+.lg-actions .lg-prev:after {
+	content: "\003c";
+}
+
+.lg-actions .lg-next:before {
+	content: "\003e";
+}
+
+.lg-outer .lg-toogle-thumb:after {
+	content: "\2193";
+}
+
+
+.big_image_preloader {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 9999;
+	width: 250px;
+	text-align: center;
+	margin-left: -125px;
+	margin-top: -20px;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	padding: 6px 4px;
+	background-color: rgba(255, 255, 255, 0.4);
+}

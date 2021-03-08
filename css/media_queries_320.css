@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+
+@media (max-width: 669px) {
+	#scroll_up_btn{top:0px;}
+	.body{min-width:320px;}
+	.container{width:300px;}
+	.block .container > * + *{margin-top:20px;}
+	
+	#calling_btn{display:block;}
+	.footer{margin-bottom:50px;}
+}

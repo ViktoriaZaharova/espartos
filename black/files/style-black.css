@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+.black_friday a,.black_friday .link_style{color:#f3b52f;}
+.black_friday .btn_orange_style{color:#333333;}
+.black_friday .header .phone_wrp a{color:#000000;}
+.black_friday .icon_left{background-image:url('icons_left_black.png');}
+.black_friday .menu_green a{color:#ffffff;}
+.black_friday .sale_link_wrp a{color:#ffc957;}
+.black_friday .menu_green{background-color:#000000;}
+.black_friday #menu_btn{background-color:#333333;}
+.black_friday #menu_btn.opened,.black_friday #menu_btn:hover{background-color:#ffffff;}
+.black_friday #menu_btn.opened:before,
+.black_friday #menu_btn.opened:after,
+.black_friday #menu_btn:hover:before,
+.black_friday #menu_btn:hover:after{border-color:#000000;}
+.black_friday .top_line{border-bottom-color:#000000;}
+.black_friday .menu_green .search_wrp .input_style{color:#000000;background-color:rgba(255,255,255,.9);}
+.black_friday .menu_green .search_wrp .input_style:hover,
+.black_friday .menu_green .search_wrp .input_style:focus{background-color:#ffffff;}
+.black_friday .menu_green .search_wrp .btn_search:hover{background-color:rgba(255,255,255,.3);}
+.black_friday .menu_green .basket_aside_link_wrp .round_icon_wrp{background-image:url('heart_basket_black.png');}
+.black_friday h1,.black_friday .h1_style{color:#000000;}
+.black_friday .search_wrp .btn_search{background-color:#000000;}
+.black_friday .alignc>h2{border-bottom-color:#000000;}
+.black_friday .btn_border_style{border-color:#000000;color:#000000;}
+.black_friday .btn_border_style:hover{color:#ffffff;background-color:#000000;}
+.black_friday a.item_link .item_wrp .properties_wrp{border-top-color:#ffffff;}
+.black_friday a.item_link:hover .caption_wrp .name{color:#000000;}
+.black_friday .body .owl-theme .owl-controls .owl-buttons .owl-prev, 
+.black_friday .body .owl-theme .owl-controls .owl-buttons .owl-next{background-image:url('carousel_arrows_black.png');}
+.black_friday a.item_link .item_wrp .properties_wrp .old_price_wrp + .cost_wrp .cost_content .cost{color:#ffffff;}
+.black_friday .green_bg{background-color:#000000;}
+.black_friday .yellow_text,.black_friday a.yellow_text{color:#ffe801;}
+.black_friday .footer .green_text{color:#000000;}
+.black_friday #scroll_up_btn,.black_friday #scroll_down_btn{background-color:#000000;}
+.black_friday #scroll_up_btn:hover,.black_friday #scroll_down_btn:hover{background-color:#111111;}
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list .sections_filter .open_filter_btn{background-color:#000000;}
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list ul.menu_filter_links_list ul.menu_filter_categories_list>li>a:hover,
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list ul.menu_filter_links_list>li>a:hover,
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list ul.menu_filter_links_list>li.opened>a{color:#000000;}
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list .open_filter_btn:hover{background-color:#000000;}
+.black_friday ul.left_menu_filter_list .show_all_btn, ul.left_menu_filter_list .hide_all_btn{color:#000000;}
+.black_friday #city_change_wrp .head_wrp{background-color:#000000;}
+.black_friday #city_change_wrp .cities_list_wrp ul.cities_list>li.active .text_wrp,
+.black_friday #city_change_wrp .cities_list_wrp ul.cities_list>li .text_wrp:hover{background-color:#000000;}
+.black_friday .catalog_title_wrp h1{border-bottom-color:#000000;}
+.black_friday .catalog_title_wrp h1 .on_city_name::before{color:#000000;background-image:url('map_marker_small_black.png');}
+.black_friday ul.catalog_main_list>li a.item_link .info_wrp{border-top-color:#ffffff;}
+.black_friday .catalog_filter_wrp ul.catalog_filter_list>li label{color:#000000;}
+.black_friday .catalog_filter_wrp ul.catalog_filter_list>li input:checked+label,
+.black_friday .catalog_filter_wrp ul.catalog_filter_list>li label:hover{border-bottom-color:#000000;color:#000000;}
+.black_friday .catalog_filter_wrp ul.catalog_filter_list > li label:after{border-bottom-color:#000000;}
+.black_friday .catalog_filter_wrp ul.catalog_filter_list>li.rasprodaja_filter label{color:#dd0000;}
+.black_friday .paginator_wrp ul.pages_list>li a:hover,
+.black_friday .paginator_wrp ul.pages_list>li.active a{background-color:#000000;}
+.black_friday .information_tabs_wrapper .info_tabs_list>li.active:hover,
+.black_friday .information_tabs_wrapper .info_tabs_list>li.active{background-color:#000000;}
+.black_friday .information_tabs_wrapper .info_tabs_list>li:hover{background-color:#111111;}
+.black_friday .information_tabs_wrapper .info_tabs_list{border-bottom-color:#000000;}
+.black_friday .information_tabs_wrapper .info_tabs_list>li:before{border-top-color:#000000;}
+.black_friday .text_block_wrp .green_line_wrp{background-color:#000000;}
+.black_friday .text_block_wrp .green_line_wrp a{color:#ffffff;}
+.black_friday .hover_green_border:hover{box-shadow:inset 0px 0px 0px 3px #000000;}
+.black_friday .counts_on_big_round_green_bg_list>li:before{background-color:#000000;}
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list ul.menu_filter_links_list>li.active>.open_categories_btn, 
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list ul.menu_filter_categories_list>li.active>.open_categories_btn{background-color:#eeeeee;}
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list ul.menu_filter_links_list>li.active>a,
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list ul.menu_filter_links_list ul.menu_filter_categories_list>li.active>a{background-color:#eeeeee;}
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list ul.menu_filter_categories_list>li.active>a::before{background-color:#eeeeee;}
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list ul.menu_filter_links_list>li.active>a:after,
+.black_friday .wrapper_catalog_filter ul.left_menu_filter_list ul.menu_filter_categories_list>li.active>a:after{background-image:url('filter_checked_icon_black.png');}
+.black_friday .check_list>li:before{background-image:url('check_list_icon_black.png');}
+.black_friday #cities_by_letter ul.letters_list>li>a{color:#000000;background-color:rgba(0,0,0,.1);}
+.black_friday #cities_by_letter ul.letters_list>li>a:hover{color:#ffffff;background-color:rgba(0,0,0,.7);}
+.black_friday #cities_by_letter ul.letters_list>li.active>a{color:#ffffff;background-color:#000000;}
+.black_friday .text_block_wrp .title_icon_wrp{color:#000000;}
+.black_friday .text_block_wrp .green_text{color:#000000;}
+.black_friday .body .delivery_services_tabs_wrp .tab_buttons>li{background-color:#000000;}
+.black_friday .body .delivery_services_tabs_wrp .tab_buttons{border-bottom-color:#000000;}
+.black_friday .body .delivery_services_tabs_wrp .tab_buttons>li:hover,
+.black_friday .body .delivery_services_tabs_wrp .tab_buttons>li.active{background-color:#000000;}
+.black_friday table.samovivoz th{color:#000000;}
+.black_friday .hand_finger_up_icon_wrp{color:#000000;background-image:url('hand_finger_up_icon_black.png');}
+.black_friday .detail_wrp .info_wrp .item_tabs_wrp ul.item_tabs_list{background-color:#000000;}
+.black_friday .detail_wrp .info_wrp .item_tabs_content_wrp .delivery_info .info_text{background-image:url('info_icon_in_circle_black.png');}
+.black_friday .cost_wrapper_bg{background-color:rgba(0,0,0,.1);}
+.black_friday .detail_wrp .info_wrp .cost_wrp .cost{color:#000000;}
+.black_friday .detail_wrp .info_wrp .cost_wrp .cost::after{background-image:url('rubl_icon_black.png');}
+.black_friday .cost_wrapper_bg .green_text{color:#000000;}
+.black_friday .to_basket_btn,
+.black_friday .detail_wrp .info_wrp .btns_wrp .btn_wrp .to_basket_btn{color:#000000;background-color:#ffc957;}
+.black_friday .to_basket_btn:hover,
+.black_friday .detail_wrp .info_wrp .btns_wrp .btn_wrp .to_basket_btn:hover{background-color:#ffd270;}
+.black_friday .detail_wrp .info_wrp .btns_wrp .amount_wrp .amount_input{border-color:#000000;}
+.black_friday .detail_wrp .info_wrp .btns_wrp .amount_wrp .amount_btn:hover{color:#000000;}
+.black_friday .fast_links_list>li.active .fast_link{color:#ffffff;background-color:#000000;}
+.black_friday .fast_links_list .fast_link:hover{color:#000000;}
+.black_friday .soputstvuyushie_tovari_wrp .tovar_info_wrp{border-color:#000000;}
+.black_friday .delivery_orange_left_icon{background-image:url('delivery_icon_car_black.svg');}
+.black_friday ul.privat_pages_list>li a:hover,
+.black_friday ul.privat_pages_list>li.active a{color:#ffffff;background-color:#000000;}
+.black_friday .items_table_content_wrp ul.table_list.title_list:hover>li,
+.black_friday .items_table_content_wrp ul.table_list.title_list>li{background-color:#000000;}
+.black_friday .items_table_content_wrp{border-bottom-color:#000000;}
+.black_friday .items_table_content_wrp ul.table_list>li{border-color:#eeeeee;}
+.black_friday .items_table_content_wrp ul.table_list:hover>li{background-color:#f8f8f8;}
+.black_friday .items_table_content_wrp ul.table_list>li .cost_wrp{color:#000000;}
+.black_friday .cart_area .rubl_icon{background-image:url('rubl_icon_black.png');}
+.black_friday .cart_area .green_text{color:#000000;}
+.black_friday .cart_area .empty_basket_notice{color:#000000;}
+.black_friday .all_summ_wrp sup{border-bottom-color:#000000;}
+.black_friday .payment_btns_wrp .payment_btn+label:hover,
+.black_friday .payment_btns_wrp .payment_btn:checked+label{border-color:#000000;color:#000000;}
+.black_friday .order_btn_wrp .btn_wrp .order_btn{background-color:#000000;}
+.black_friday .order_btn_wrp .btn_wrp .order_btn:hover{background-color:#222222;}
+.black_friday .sale_link_wrp{padding-right:55px;background:url('sale-70.png') no-repeat right 35%;}
+.black_friday .wallpaper_image_wrp .discount{height:110px;width:110px;padding:5px;background-image:url('discount_bg_orange.png');}
+.black_friday .wallpaper_image_wrp .discount .red_round{height:100px;width:100px;background-color:#f3a600;font-size:35px;line-height:100px;}
+.black_friday .grey_border_white_bg .green_text{color:#000000;}
+.black_friday .menu_green .container{position:relative;z-index:1;}
+.black_friday .menu_green .first_link+.search_wrp{margin-left:15px;}
+.black_friday .menu_green{position:relative;}
+.black_friday .menu_green:before {
+	height: 84px;
+	width: 167px;
+	content: '';
+	display: block;
+	position: absolute;
+	top: calc(50% - 40px);
+	left: calc(50% - 660px);
+	background: url('blackfriday-left.png') no-repeat center center;
+}
+.black_friday .menu_green:after {
+	height: 69px;
+	width: 169px;
+	content: '';
+	display: block;
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% + 450px);
+	background: url('blackfriday-right.png') no-repeat center center;
+}
+.black_friday .catalog_filter_list .filter_dropdown_list .dropdown_item:hover{background-color:#000000;}

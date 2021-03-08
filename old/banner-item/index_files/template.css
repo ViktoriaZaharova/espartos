@@ -1,0 +1,5715 @@
+.clearfix {
+	zoom: 1;
+	display: block;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* для IE6 */
+* html.clearfix {
+	height: 1%;
+}
+
+/* для IE7 */
+*:first-child+html.clearfix {
+	min-height: 1px;
+}
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+img
+{
+	border:none;
+}
+
+html
+{
+	height:100%;
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+
+body
+{
+	height: 100%;
+	min-width:1000px;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#2e2d2d;
+	margin:0px;
+	padding:0px;
+	background:#fff url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/wallpaper.gif);
+/* ? NEW_YEAR ? */
+background:#fff url('wallpape.gif');
+/* ? NEW_YEAR ? */
+}
+
+.body{min-height:100%;padding-bottom:155px;box-sizing:border-box;}
+.footer_menu{margin-top:-155px;}
+
+body a
+{
+	outline:none;
+	color:#188b88;
+}
+
+body a:hover
+{
+	color:#25aba8;
+	text-decoration:none;
+}
+
+h1
+{
+	font-family:Tahoma;
+	font-size:18px;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#188b88;
+	padding-bottom:15px;
+}
+
+h2
+{
+	font-family:Tahoma;
+	font-size:16px;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#188b88;
+	padding-bottom:15px;
+}
+
+/* ДОБАВИЛ ==================================================================*/
+
+.rgt h2 {
+	font-family:Tahoma;
+	font-size:14px;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#188b88;
+	padding: 15px 0px;
+}
+
+h3 {
+	font-family:Tahoma;
+	font-size:14px;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#188b88;
+	padding: 15px 0px;
+	text-align: center;
+	margin-left: -40px;
+}
+
+ol
+{
+	padding: 0 0 7px 15px;
+	margin-left: 25px;
+}
+
+ol li
+{
+	list-style-type: decimal;
+	padding:0 0 5px 2px;
+}
+
+.dostavka td {
+	height: 25px;
+	/*line-height: 21px;*/
+	vertical-align: middle;
+	padding-right: 15px;
+}
+
+.samovizov {
+	border: 1px solid #000000;
+	width: 100%;
+}
+
+.samovizov th {
+	border: 1px solid #000000;
+	height: 36px;
+}
+
+.samovizov .tbl_cntr {
+	text-align: center;
+	vertical-align: middle;	
+}
+
+.samovizov .tbl_left {
+	text-align: left;
+	vertical-align: middle;	
+}
+
+.samovizov .tbl_width1 {
+	width: 100px;
+	
+}
+
+.samovizov .tbl_width2 {
+	padding-left: 8px;
+}
+
+.samovizov .tbl_width3 {
+	width: 120px;
+}
+
+.samovizov .tbl_width4 {
+	width: 120px;
+}
+
+.samovizov .tbl_width5 {
+	width: 150px;
+}
+
+.samovizov td {
+	border: 1px solid #000000;
+	height: 34px;
+	/*line-height: 21px;*/
+	padding: 0px;
+}
+
+.text_bold {
+	font-weight: bold;
+}
+
+.otstup {
+	margin-top: -10px;
+}
+
+/* /ДОБАВИЛ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+p
+{
+	padding-bottom:12px;
+	text-align:justify;
+	/*Добавил ==================================================================*/
+	line-height: 17px;
+	text-indent: 15px;
+	/*            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+}
+
+table
+{
+	border-collapse:collapse;
+}
+
+ul
+{
+	list-style:none;
+	/*padding:0 0 7px 20px;
+	margin: 0px;*/
+	padding:0 0 7px 6px;
+	margin-left: 25px;
+}
+
+ul li
+{
+	list-style:none;
+	/*padding:0 0 5px 12px;*/
+	padding:0 0 5px 13px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/elements/ul.gif) 0 5px no-repeat;
+}
+
+.spacer
+{
+	display:block;
+	font-size:1px;
+	line-height:1px;
+	height:1px;
+	clear:both;
+}
+
+.spacer3
+{
+	font-size:1px;
+	line-height:1px;
+	height:3px;
+	clear:both;
+}
+
+.spacer5
+{
+	font-size:1px;
+	line-height:1px;
+	height:5px;
+	clear:both;
+}
+
+.spacer7
+{
+	font-size:1px;
+	line-height:1px;
+	height:7px;
+	clear:both;
+}
+
+.spacer10
+{
+	font-size:1px;
+	line-height:1px;
+	height:10px;
+	clear:both;
+}
+
+.spacer15
+{
+	font-size:1px;
+	line-height:1px;
+	height:15px;
+	clear:both;
+}
+
+.spacer20
+{
+	font-size:1px;
+	line-height:1px;
+	height:20px;
+	clear:both;
+}
+
+.spacer30
+{
+	font-size:1px;
+	line-height:1px;
+	height:30px;
+	clear:both;
+}
+
+.success
+{
+	border:1px solid #0cd28a;
+	background:#cef6e8;
+	color:#07704a;
+	padding:10px;
+	border-radius:10px;
+}
+
+.error
+{
+	border:1px solid #f13a65;
+	background:#fcd8e0;
+	color:#7b0521;
+	padding:10px;
+	border-radius:10px;
+}
+
+.notice
+{
+	border:1px solid #f1bb3a;
+	background:#fcf1d8;
+	color:#7e5b08;
+	padding:10px;
+	border-radius:10px;
+}
+
+/*
+.fbg
+{
+	background:url(images/bg/footer.png) left bottom repeat-x;
+}
+*/
+
+.container
+{
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+	background:#fff url(content0.jpg);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	min-height:100%;
+}
+
+.header
+{
+	height:153px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/header_empty.gif) no-repeat;
+	position:relative;
+}
+
+.header.hbasket
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/header_basket.gif) no-repeat;
+}
+
+.header.hsale
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/header_sale.gif) no-repeat;
+}
+
+.header.hsalebasket
+{
+	background:url(header_s.gif) no-repeat;
+}
+
+.header .logo
+{
+	width:254px;
+	height:94px;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	padding:15px 30px 43px 30px;
+}
+
+.header .basket
+{
+	width:235px;
+	height:92px;
+	float:right;
+	padding:8px 23px 0 0;
+}
+
+.header .basket .inside
+{
+	border-left:1px solid #b2bebe;
+	width:198px;
+	height:82px;
+	position:relative;
+	overflow:hidden;
+	padding:5px 18px;
+}
+
+.header .basket .links
+{
+	text-align:center;
+	font-size:11px;
+}
+
+.header .basket .links a
+{
+	color:#2f2f2f;
+	text-decoration:none;
+}
+
+.header .basket .links a:hover
+{
+	color:#000;
+	text-decoration:underline;
+}
+
+.header .basket .info
+{
+	display:block;
+	background:url(basket00.png) left 6px no-repeat;
+	padding:0 0 0 42px;
+	text-decoration:none;
+}
+
+.header .basket .info .bname
+{
+	display:block;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#000;
+	font-size:18px;
+    margin: 12px 0 0 0;
+}
+
+.header .basket .info .detail
+{
+	display:block;
+	padding-top:2px;
+	font-size:12px;
+	color:#1b1b1b;
+}
+
+.header .contacts
+{
+	width:219px;
+	height:92px;
+	float:right;
+	padding:8px 5px 0 0;
+}
+
+.header .contacts .inside
+{
+	border-left:1px solid #b2bebe;
+	width:194px;
+	height:82px;
+	position:relative;
+	overflow:hidden;
+	padding:5px 12px;
+}
+
+.header .contacts .links
+{
+	text-align:center;
+	font-size:11px;
+}
+
+.header .contacts .links a
+{
+	color:#2f2f2f;
+	text-decoration:none;
+}
+
+.header .contacts .links a:hover
+{
+	color:#000;
+	text-decoration:underline;
+}
+
+.header .contacts .info
+{
+	display:block;
+	background:url(contacts.png) left 6px no-repeat;
+	padding:0 0 0 38px;
+	text-decoration:none;
+    margin: 12px 0 0 0;
+}
+
+.header .contacts .info .phone
+{
+	display:block;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#000;
+	font-size:15px;
+}
+
+.header .contacts .info .address
+{
+	display:block;
+	padding-top:2px;
+	font-size:12px;
+	color:#1b1b1b;
+}
+
+.header .delivery
+{
+	width:188px;
+	height:92px;
+	float:right;
+	padding:8px 0 0 0;
+}
+
+.header .delivery .inside
+{
+	width:163px;
+	height:82px;
+	position:relative;
+	overflow:hidden;
+	padding:5px 12px;
+}
+
+.header .delivery .visa_mastercard_link {
+	position: absolute;
+	right: 22px;
+	top: 10px;
+}
+
+.header .delivery .links
+{
+	text-align:center;
+	font-size:11px;
+}
+
+.header .delivery .links a
+{
+	color:#2f2f2f;
+	text-decoration:none;
+}
+
+.header .delivery .links a:hover
+{
+	color:#000;
+	text-decoration:underline;
+}
+
+.header .delivery .info
+{
+	display:block;
+	background:url(delivery.png) left 6px no-repeat;
+	padding:0 0 0 52px;
+	text-decoration:none;
+    margin: 12px 0 0 0;
+}
+
+.header .delivery .info .bname
+{
+	display:block;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#000;
+	font-size:18px;
+}
+
+.header .delivery .info .detail
+{
+	display:block;
+	padding-top:2px;
+	font-size:12px;
+	color:#1b1b1b;
+        letter-spacing: 1px;
+}
+
+.header .sale
+{
+	height:20px;
+	position:absolute;
+	top:115px;
+
+	width:333px;
+	left:350px;
+	font-size:11px;
+	color: #926609;
+/*
+width: 345px;
+left: 345px;
+font-size: 10px;
+color: #ff0000;
+letter-spacing: -.1px;
+*/
+	line-height:20px;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:4px 5px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.header .salenolink
+{
+	cursor:default;
+}
+
+.header .search
+{
+	width:200px;
+	height:23px;
+	position:absolute;
+	top:118px;
+	left:760px;
+}
+
+.header .search .field
+{
+	float:left;
+	width:170px;
+	height:21px;
+	background:#fff;
+	border-left:1px solid #cecece;
+	border-top:1px solid #cecece;
+	border-bottom:1px solid #cecece;
+}
+
+.header .search .field input
+{
+	width:160px;
+	border:none;
+	background:none;
+	height:21px;
+	line-height:21px;
+	font-family:Arial;
+	font-size:11px;
+	font-style:italic;
+	color:#747474;
+	padding:0 5px;
+	outline:none;
+}
+
+.header .search .send
+{
+	border:none;
+	background:none;
+	background:url(search00.gif) no-repeat;
+	width:29px;
+	height:23px;
+	float:left;
+	cursor:pointer;
+}
+
+.ddsearch
+{
+	width:170px;
+	position:absolute;
+	border-left:1px solid #cecece;
+	border-right:1px solid #cecece;
+	border-bottom:1px solid #cecece;
+	background:#fff;
+	z-index:50;
+	margin-top:23px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+	opacity:0.93;
+	display:none;
+}
+
+.ddsearch .dditem
+{
+	font-size:11px;
+	color:#747474;
+}
+
+.ddsearch .dditem a
+{
+	padding:5px 7px;
+	display:block;
+	color:#747474;
+	text-decoration:none;
+}
+
+.ddsearch .dditem a:hover
+{
+	color:#646464;
+	background:#eee;
+}
+
+.ddsearch .ddsep
+{
+	height:1px;
+	font-size:1px;
+	line-height:1px;
+	background:#eee;
+}
+
+.menu
+{
+	/*width:1000px;*/
+	height:58px;
+	position:relative;
+	overflow:hidden;
+	background:url(menu0000.gif) no-repeat;
+    /*padding: 0 0 0 20px;*/
+}
+
+.menu .lighter
+{
+	width:194px;
+	height:58px;
+	position:absolute;
+	top:0;
+	left:100px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/active.png) left bottom no-repeat;
+	z-index:10;
+}
+
+.menu .interactive
+{
+	width:125px;
+	height:45px;
+	float:left;
+	position:relative;
+	z-index:20;
+	padding:9px 5px 4px 7px;
+}
+
+.menu .interactive a
+{
+	display:block;
+	width:125px;
+	height:45px;
+	color:#fff;
+	position:relative;
+	overflow:hidden;
+	text-decoration:none;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/interactive.png) no-repeat;
+}
+
+.menu .interactive .bname
+{
+	display:block;
+	font-size:11px;
+	text-align:center;
+	padding:11px 0px 15px 32px;
+	line-height:0.9;
+}
+
+.menu .items
+{
+	/*width:860px;*/
+	height:58px;
+	/*float:right;*/
+	position:right;
+	/*margin: 0 auto;*/
+	position:relative;
+	overflow:hidden;
+	z-index:20;
+}
+
+.menu .items ul
+{
+	list-style:none;
+	background:none;
+	/*padding:0;*/
+    padding: 0 0 0 20px;
+	margin:0;
+}
+
+.menu .items ul li
+{
+	height:58px;
+	line-height:58px;
+	list-style:none;
+	background:none;
+	padding:0;
+	margin:0;
+	float:left;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
+}
+
+.menu .items ul li.bold {
+	font-weight: 700;
+}
+
+.menu .items ul li.separator
+{
+	padding:0 10px;
+}
+
+.menu .items ul li a
+{
+	display:block;
+	height:58px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.menu .items ul li a:hover
+{
+	color:#36f8f8;
+	text-decoration:none;
+}
+
+.menu .items ul li.actions a
+{
+	background:#FFAB47;
+	border-radius:5px;
+	padding:0 7px;
+	line-height:30px;
+	margin:14px 0;
+	height:30px;
+}
+
+.menu .items ul li a.active {
+	text-decoration: underline;
+}
+
+.menu .items ul li .icon {
+	margin-right: 4px;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+
+.menu .items ul li.actions a:hover
+{
+	color:#ffd5a3;
+}
+
+.content
+{
+	padding:5px;
+}
+
+.content .title
+{
+	font-size:16px;
+	font-weight:bold;
+	color:#535353;
+	padding-bottom:10px;
+	text-shadow:1px 1px #fff;
+}
+
+.content .title_turquoise
+{
+	font-size:16px;
+	font-weight:bold;
+	color:#26b2ae;
+	padding-bottom:10px;
+	text-shadow:1px 1px #fff;
+}
+
+.content .title_orange
+{
+	font-size:16px;
+	font-weight:bold;
+	color:#f46700;
+	padding-bottom:10px;
+	text-shadow:1px 1px #fff;
+}
+
+.content .lft
+{
+	width:178px;
+	float:left;
+}
+
+.content .submenu
+{
+	padding-bottom:20px;
+}
+
+.content .submenu .caption
+{
+	color:#395656;
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #f1f1f1;
+	font-size:14px;
+	padding:5px 2px 5px 15px;
+	background:#e5e5e5;
+}
+
+.content .submenu .item
+{
+	padding:6px 18px 6px 15px;
+	position: relative;
+	border-bottom:1px solid #dbdad9;
+}
+
+.content .submenu .item.iselected {
+	padding:4px 18px 4px 15px;
+	/*margin:3px 0 0 0;*/
+	background:#bff0ef;
+}
+
+.content  .submenu .item a
+{
+	cursor: pointer;
+	color: #3e3e3c;
+	text-decoration: none;
+}
+
+.content .submenu .item a:hover
+{
+	color: #707070;
+	text-decoration: none;
+}
+
+.content .submenu .item .delete
+{
+	cursor: pointer;
+	width:8px;
+	height:7px;
+	position:absolute;
+	right:3px;
+	font-size:12px;
+	margin-top:1px;
+	padding:3px;
+	color:#bbb;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/buttons/check-mark.png) center center no-repeat;
+}
+
+.content .submenu .item .count
+{
+	position:absolute;
+	right: 3px;
+	font-size:12px;
+	padding-right:1px;
+	color:#bbb;
+}
+
+.content .submenu .reset-filter-wrapper {
+	margin: 5px 0;
+	text-align: right;
+}
+
+.content .submenu .reset-filter {
+	color: #188B88;
+	border-bottom: 1px dotted #188B88;
+	cursor: pointer;
+}
+
+.content .submenu .reset-filter:hover {
+	border-bottom: 1px solid #188B88;
+}
+
+.content .submenu .reset-filter-wrapper i {
+	font-weight: 700;
+	color: #188B88;
+	border-bottom: 1px dotted transparent;
+	font-style: normal;
+}
+
+.content .filter
+{
+	padding-bottom:20px;
+}
+
+.content .filter .caption
+{
+	color:#395656;
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #f1f1f1;
+	font-size:14px;
+	padding:5px 2px 5px 15px;
+	background:#e5e5e5;
+}
+
+.content .filter .item
+{
+	padding:6px 18px 6px 15px;
+	position:relative;
+	border-bottom:1px solid #dbdad9;
+}
+
+.content .filter .item.selected
+{
+	padding:3px 18px 6px 15px;
+	margin:3px 0 0 0;
+	background:#bff0ef;
+}
+
+.content .filter .item a
+{
+	cursor: pointer;
+	color:#3e3e3c;
+	text-decoration:none;
+}
+
+.content .filter .item a:hover
+{
+	color:#707070;
+	text-decoration:none;
+}
+
+.content .filter .item .count
+{
+	position:absolute;
+	right:3px;
+	font-size:12px;
+	padding-right:1px;
+	color:#bbb;
+}
+
+.content .filter .item .delete
+{
+	cursor: pointer;
+	width:8px;
+	height:7px;
+	position:absolute;
+	right:3px;
+	font-size:12px;
+	margin-top:1px;
+	padding:3px;
+	color:#bbb;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/buttons/check-mark.png) center center no-repeat;
+}
+
+.content .filter .item .preloading
+{
+	width:8px;
+	height:7px;
+	position:absolute;
+	right:3px;
+	font-size:12px;
+	margin:4px 3px 3px;
+}
+
+.content .filter .item.pointed
+{
+	position:relative;
+	box-shadow:0 0 10px #969696;
+	padding:8px;
+	width:100%;
+	margin-left:-8px;
+	margin-top:-2px;
+	border-bottom:1px solid #8dbfbe;
+}
+
+.content .filter .item.pointed a
+{
+	margin-left:15px;
+	text-shadow:1px 1px #e8ffff;
+}
+
+.content .filter .item.pointed .count
+{
+	right:28px;
+	text-shadow:1px 1px #e8ffff;
+}
+
+.content .filter .item.pointed a.delete
+{
+	margin-left:0;
+	right:11px;
+}
+
+.content .filter .subfilter .item
+{
+	padding-left:35px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/elements/arr_right.gif) 25px center no-repeat;
+}
+
+.content .filter .subfilter .item.selected
+{
+	padding-left:35px;
+	background:#d2f5f4 url(http://tumen.espartos.ru/bitrix/templates/espartos/images/elements/arr_right.gif) 25px center no-repeat;
+}
+
+.content .filter .subfilter .item a
+{
+	color:#128986;
+}
+
+.content .filter .subfilter .item a:hover
+{
+	color:#23bab6;
+}
+
+.content .filter .subfilter .subfilter .item
+{
+	padding-left:55px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/elements/arr_right.gif) 45px center no-repeat;
+}
+
+.content .filter .subfilter .subfilter .item.selected
+{
+	padding-left:55px;
+	background:#d9f6f5 url(http://tumen.espartos.ru/bitrix/templates/espartos/images/elements/arr_right.gif) 45px center no-repeat;
+}
+
+.content .filter .subfilter .subfilter .item a
+{
+	color:#1da3a0;
+}
+
+.content .filter .subfilter .subfilter .item a:hover
+{
+	color:#2dc8c4;
+}
+
+.content .filter .subfilter .item.pointed
+{
+	position:relative;
+	box-shadow:0 0 10px #969696;
+	padding:8px;
+	width:100%;
+	margin-left:-8px;
+	margin-top:-8px;
+	background-position:33px center;
+}
+
+.content .filter .subfilter .item.pointed a
+{
+	margin-left:35px;
+	text-shadow:1px 1px #e8ffff;
+}
+
+.content .filter .item.pointed .count
+{
+	right:28px;
+	text-shadow:1px 1px #e8ffff;
+}
+
+.content .filter .item.pointed a.delete
+{
+	margin-left:0;
+	right:11px;
+}
+
+.content .filter .subfilter.hovered
+{
+	box-shadow:0 0 10px #969696;
+	position:relative;
+	background:#fff;
+	padding:8px;
+	width:100%;
+	margin-left:-8px;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-top:-6px;
+}
+
+.content .filter .subfilter.hovered .item:last-child
+{
+	border:none;
+	padding-bottom:3px;
+}
+
+.content .filterprice
+{
+	padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.content .filterprice .inside
+{
+	padding:6px 10px 6px 15px;
+	background:#cdcdcc url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/filter_price.gif) left top repeat-x;
+}
+
+.content .filterprice .caption
+{
+	font-size:14px;
+	padding-bottom:5px;
+	text-shadow:1px 1px 1px #f1f1f1;
+}
+
+.content .filterprice .field
+{
+	padding:2px 0;
+}
+
+.content .filterprice .field .nmf
+{
+	width:21px;
+	height:21px;
+	line-height:21px;
+	padding:1px 0;
+	float:left;
+}
+
+.content .filterprice .field .inp
+{
+	width:100px;
+	height:21px;
+	float:left;
+	background:#fff;
+	border:1px solid #c7c7c2;
+}
+
+.content .filterprice .field .cur
+{
+	width:30px;
+	height:21px;
+	line-height:21px;
+	padding:1px 0;
+	float:right;
+	text-align:right;
+	color:#999999;
+}
+
+.content .filterprice .field .inp input
+{
+	width:90px;
+	border:none;
+	background:none;
+	height:21px;
+	line-height:21px;
+	font-family:Arial;
+	font-size:12px;
+	font-style:italic;
+	text-align:right;
+	color: #2E2D2D; /*#b1b1b1;*/
+	padding:0 5px;
+	outline:none;
+}
+
+.content .filterprice .field .chbx
+{
+	width:21px;
+	height:18px;
+	line-height:18px;
+	padding:4px 0 1px;
+	float:left;
+}
+
+.content .filterprice .field .chbxcntr
+{
+	width:21px;
+	height:17px;
+	cursor: pointer;
+	display: inline-block;
+	position:absolute;
+	margin:-2px 0 0 -3px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/checkbox.png) left top no-repeat;
+}
+
+.content .filterprice .field .chbxcntr.chbxcntrchecked
+{
+	background-position:left bottom;
+}
+
+.content .filterprice .field .chbxcntr input
+{
+	display:none;
+}
+
+.content .filterprice .field .btnfilter
+{
+	padding-left:21px;
+}
+
+.content .filterprice .field .btnfilter input
+{
+	width:100px;
+	border:1px solid #adadad;
+	line-height:21px;
+	cursor:pointer;
+	background:#e4e4e4 url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/btn_filter_price.gif) left bottom repeat-x;
+	text-shadow: 1px 1px #e7e7e7;
+	box-shadow: inset 1px 1px 1px #e7e7e7, inset -1px -1px 1px #e7e7e7;
+	color:#4d4d4d;
+}
+
+.content .filterprice .field .btnfilter input:hover
+{
+	background:#e4e4e4 url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/btn_filter_price_h.gif) left top repeat-x;
+	box-shadow: inset -1px -1px 1px #e7e7e7, inset 1px 1px 1px #e7e7e7;
+}
+
+.content .filterprice .field label
+{
+	cursor: pointer;
+	width:100px;
+	height:18px;
+	float:left;
+	line-height:18px;
+	padding:1px 0;
+}
+
+.content .filterprice .field .count
+{
+	width:30px;
+	float:right;
+	text-align:right;
+	font-size:12px;
+	padding-right:1px;
+	color:#999999;
+	line-height:18px;
+}
+
+#price_filter_button {
+    display: none;
+}
+
+.content .filter .disabled-item
+{
+	cursor:default;
+	color:#e0e0e0;
+	text-shadow:1px 1px #fff;
+}
+
+.content .filter .disabled-item a
+{
+	cursor:default;
+	color:#e0e0e0;
+	text-shadow:1px 1px #fff;
+}
+
+.content .filter .disabled-item a:hover
+{
+	color:#e0e0e0;
+}
+
+.content .filter .subfilter .disabled-item
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/elements/arr_right_disabled.gif) 25px center no-repeat;
+}
+
+.content .filter .subfilter .disabled-item a
+{
+	cursor:default;
+	color:#e0e0e0;
+	text-shadow:1px 1px #fff;
+}
+
+.content .filter .subfilter .disabled-item a:hover
+{
+	color:#e0e0e0;
+}
+
+.content .filter .disabled-item .count
+{
+	cursor:default;
+	color:#e0e0e0;
+	text-shadow:1px 1px #fff;
+}
+
+.content .filter .disabled-item.selected, .content .lft .filter .selected.disabled-item
+{
+	cursor:default;
+	color:#6acac8;
+	text-shadow:1px 1px #e5fffe;
+}
+
+.content .filter .disabled-item.selected a, .content .lft .filter .selected.disabled-item a
+{
+	cursor:default;
+	color:#6acac8;
+	text-shadow:1px 1px #e5fffe;
+}
+
+.content .filter .disabled-item.selected a:hover, .content .lft .filter .selected.disabled-item a:hover
+{
+	color:#6acac8;
+}
+
+.content .filter .disabled-item.selected .count, .content .lft .filter .selected.disabled-item .count
+{
+	cursor:default;
+	color:#6acac8;
+	text-shadow:1px 1px #e5fffe;
+}
+
+.content .rgt
+{
+	width:765px;
+	float:right;
+	padding-right:25px;
+	
+}
+
+.content .index
+{
+	padding:25px 0 12px;
+}
+
+.content .innerpage.nopager
+{
+	padding-top:25px;
+}
+
+.content .innerpage p
+{
+	text-indent:20px;
+}
+
+
+
+.content .clmn
+{
+	padding:0 17px;
+	position:relative;
+}
+
+.content .clmn .horizontal
+{
+	height:2px;
+	font-size:1px;
+	line-height:1px;
+	padding:5px 0;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/horizontal.png) center center no-repeat;
+}
+
+.content .clmn .goback
+{
+	position:absolute;
+	margin-top:-24px;
+	color:#292929;
+	right:17px;
+	padding:0 0 0 14px;
+	background:url(arrow_ba.png) left 3px no-repeat;
+}
+
+.content .clmn .goback a
+{
+	color:#292929;
+}
+
+.content .clmn .goback a:hover
+{
+	color:#000;
+}
+
+.content .clmn .dlft
+{
+	width:385px;
+	float:left;
+}
+
+.content .clmn .dlft .info
+{
+	width:385px;
+	position:relative;
+}
+
+.content .clmn .dlft .info .pic a
+{
+	display:block;
+	position:relative;
+}
+
+.content .clmn .dlft .info .availability
+{
+	width:351px;
+	position:absolute;
+	height:22px;
+	line-height:22px;
+	background:#26b2ae;
+	padding:0 17px;
+	font-style:italic;
+	font-family:Georgia;
+	color:#fff;
+	/*bottom:33px;*/
+	top: 0;
+	left:0;
+	z-index:50;
+}
+
+.content .clmn .dlft .info .availability.by_request {
+    background-color: #ffa900;
+}
+
+.content .clmn .dlft .info .links
+{
+	width:365px;
+	position:absolute;
+	color:#fff;
+	height:33px;
+	line-height:33px;
+	background:url(3c3c3c_8.png);
+	padding:0 10px;
+	bottom:0;
+	left:0;
+	z-index:50;
+}
+
+.content .clmn .dlft .info .links .sample
+{
+	width:53%;
+	float:left;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/links_separator.png) right center no-repeat;
+}
+
+.content .clmn .dlft .info .links .sample span
+{
+	padding:0 0 0 14px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/buttons/free_example.png) left 2px no-repeat;
+}
+
+.content .clmn .dlft .info .links .sample a
+{
+	color:#fff;
+}
+
+.content .clmn .dlft .info .links .howmuch
+{
+	width:45%;
+	float:right;
+	padding-left:2px;
+}
+
+.content .clmn .dlft .info .links .howmuch span
+{
+	padding:0 0 0 10px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/buttons/how_much.png) left 2px no-repeat;
+}
+
+.content .clmn .dlft .info .links .howmuch a
+{
+	color:#54ffff;
+}
+
+.content .clmn .dlft .social
+{
+	padding-top:5px;
+}
+
+.content .clmn .dlft .social a
+{
+	display:block;
+	text-decoration:none;
+	width:32px;
+	height:32px;
+	float:left;
+	margin-right:12px;
+}
+
+.content .clmn .dlft .social .fb
+{
+	width:33px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) 0 0 no-repeat;
+}
+
+.content .clmn .dlft .social .fb:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) 0 -32px no-repeat;
+}
+
+.content .clmn .dlft .social .tw
+{
+	width:24px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -46px 0 no-repeat;
+}
+
+.content .clmn .dlft .social .tw:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -46px -32px no-repeat;
+}
+
+.content .clmn .dlft .social .gb
+{
+	margin:0 17px 0 5px;
+	width:19px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -88px 0 no-repeat;
+}
+
+.content .clmn .dlft .social .gb:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -88px -32px no-repeat;
+}
+
+.content .clmn .dlft .social .jj
+{
+	width:19px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -129px 0 no-repeat;
+}
+
+.content .clmn .dlft .social .jj:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -129px -32px no-repeat;
+}
+
+.content .clmn .dlft .social .vk
+{
+	width:38px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -162px 0 no-repeat;
+}
+
+.content .clmn .dlft .social .vk:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -162px -32px no-repeat;
+}
+
+.content .clmn .dlft .social .mr
+{
+	width:25px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -209px 0 no-repeat;
+}
+
+.content .clmn .dlft .social .mr:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -209px -32px no-repeat;
+}
+
+.share42init
+{
+	padding-top:5px;
+}
+
+#share42 #soc-share0
+{
+	margin:0 12px 0 0!important;
+	width:33px!important;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) 0 0 no-repeat!important;
+}
+
+#share42 #soc-share0:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) 0 -32px no-repeat!important;
+}
+
+#share42 #soc-share1
+{
+	margin:0 12px 0 0!important;
+	width:24px!important;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -46px 0 no-repeat!important;
+}
+
+#share42 #soc-share1:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -46px -32px no-repeat!important;
+}
+
+#share42 #soc-share2
+{
+	margin:0 17px 0 5px!important;
+	width:19px!important;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -88px 0 no-repeat!important;
+}
+
+#share42 #soc-share2:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -88px -32px no-repeat!important;
+}
+
+#share42 #soc-share3
+{
+	margin:0 12px 0 0!important;
+	width:19px!important;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -129px 0 no-repeat!important;
+}
+
+#share42 #soc-share3:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -129px -32px no-repeat!important;
+}
+
+#share42 #soc-share4
+{
+	margin:0 12px 0 0!important;
+	width:38px!important;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -162px 0 no-repeat!important;
+}
+
+#share42 #soc-share4:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -162px -32px no-repeat!important;
+}
+
+#share42 #soc-share5
+{
+	margin:0 12px 0 0!important;
+	width:25px!important;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -209px 0 no-repeat!important;
+}
+
+#share42 #soc-share5:hover
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/social.png) -209px -32px no-repeat!important;
+}
+
+.content .clmn .drgt
+{
+	width:550px;
+	float:right;
+}
+
+.content .clmn .drgt .minfo
+{
+	width:49%;
+	float:left;
+}
+
+.content .clmn .drgt .minfo .name
+{
+	color:#2c2c2c;
+	font-size:20px;
+}
+
+.content .clmn .drgt .minfo .price
+{
+	color:#20c0c0;
+	font-weight:bold;
+	font-size:20px;
+	padding:2px 0;
+}
+
+.content .clmn .drgt .minfo .price .coins
+{
+	padding-left:1px;
+	font-size:14px;
+	text-decoration:underline;
+}
+
+.content .clmn .drgt .minfo .price .currency
+{
+	font-weight:normal;
+}
+
+.content .clmn .drgt .minfo .oldprice
+{
+	color:#494949;
+	font-size:12px;
+}
+
+.content .clmn .drgt .minfo .oldprice .lth
+{
+	text-decoration:line-through;
+}
+
+.content .clmn .drgt .minfo .oldprice .coins
+{
+	padding-left:1px;
+	font-size:9px;
+	text-decoration:underline;
+}
+
+.content .clmn .drgt .minfo .oldprice .discount
+{
+	text-decoration:none;
+}
+
+.content .clmn .drgt .minfo .is_in_sale a {
+    font-size: 15px;
+    color: #f60;
+}
+
+.content .clmn .drgt .minfo .quantity_left
+{
+	color: #ff6600;
+    margin: 0 0 0 10px;
+}
+
+.content .clmn .drgt .madd
+{
+	width:40%;
+	float:right;
+	text-align:right;
+}
+
+.content .clmn .drgt .madd .rating
+{
+	height:20px;
+	padding-top:3px;
+	width:110px;
+	float:right;
+}
+
+.content .clmn .drgt .madd .rating span
+{
+	display:block;
+	float:left;
+	width:21px;
+	height:19px;
+	padding-right:1px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/stars_big.png) left center no-repeat;
+}
+
+.content .clmn .drgt .madd .rating span.active
+{
+	background-position:left top;
+}
+
+.content .clmn .drgt .madd .rating span.hover
+{
+	background-position:left bottom;
+}
+
+.content .clmn .drgt .madd .rating a
+{
+	display:block;
+	float:left;
+	width:21px;
+	height:19px;
+	padding-right:1px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/stars_big.png) left center no-repeat;
+}
+
+.content .clmn .drgt .madd .rating a.active
+{
+	background-position:left top;
+}
+
+.content .clmn .drgt .madd .rating a.hover
+{
+	background-position:left bottom;
+}
+
+.content .clmn .drgt .madd .review
+{
+	padding-top:10px;
+}
+
+.content .clmn .drgt .madd .review a
+{
+	color:#2c2c2c;
+}
+
+.content .clmn .drgt .madd .review a:hover
+{
+	color:#000;
+}
+
+.content .clmn .drgt .dinf
+{
+	background:url(dashed00.png) left top repeat-x;
+}
+
+.content .clmn .drgt .dinf .inside
+{
+	padding:5px 0;
+	background:url(dashed00.png) left bottom repeat-x;
+}
+
+.content .clmn .drgt .dinf .inside .ls
+{
+	width:52%;
+	float:left;
+	padding:0 7px 0 0;
+	border-right:1px solid #e1e0e0;
+}
+
+.content .clmn .drgt .dinf .inside .ls .row
+{
+	padding:3px 0;
+}
+
+.content .clmn .drgt .dinf .inside .ls .row .lc
+{
+	width:60%;
+	float:left;
+	font-weight:bold;
+}
+
+.content .clmn .drgt .dinf .inside .ls .row .rc
+{
+	width:39%;
+	float:right;
+}
+
+.content .clmn .drgt .dinf .inside .rs
+{
+	width:45%;
+	float:right;
+	padding:0 0 0 7px;
+}
+
+.content .clmn .drgt .dinf .inside .rs .inner
+{
+	padding:3px 3px;
+}
+
+.content .clmn .drgt .dinf .inside .rs .inner .pic
+{
+	text-align:center;
+	padding-bottom:10px;
+}
+
+.content .clmn .drgt .dinf .inside .rs .inner .txt
+{
+	color:#545454;
+	font-style:italic;
+	font-family:Arial;
+	font-size:12px;
+}
+
+.content .clmn .drgt .gallery
+{
+	width:285px;
+	float:left;
+}
+
+.content .clmn .drgt .gallery .inside
+{
+	width:285px;
+	height:140px;
+	position:relative;
+	overflow:hidden;
+	background:url(gallery0.png) no-repeat;
+}
+
+.content .clmn .drgt .gallery .top
+{
+	height:20px;
+	line-height:20px;
+	padding:10px 17px 6px;
+}
+
+.content .clmn .drgt .gallery .top .tl
+{
+	width:170px;
+	float:left;
+}
+
+.content .clmn .drgt .gallery .top .tr
+{
+	width:150px;
+	float:left;
+}
+
+.content .clmn .drgt .gallery .top .tr select
+{
+	width:135px;
+}
+
+.content .clmn .drgt .gallery .scroll
+{
+	height:66px;
+	padding:0 27px 20px;
+	position:relative;
+	overflow:hidden;
+}
+
+.content .clmn .drgt .gallery .scroll .srcinside
+{
+	height:66px;
+	padding-bottom:26px;
+	position:relative;
+	overflow:hidden;
+}
+
+.content .clmn .drgt .gallery .scroll .sla
+{
+	display:block;
+	width:19px;
+	height:26px;
+	background:url(arrows_g.png) left top no-repeat;
+	position:absolute;
+	top:50%;
+	left:7px;
+	margin-top:-23px;
+}
+
+.content .clmn .drgt .gallery .scroll .sra
+{
+	display:block;
+	width:19px;
+	height:26px;
+	background:url(arrows_g.png) left bottom no-repeat;
+	position:absolute;
+	top:50%;
+	right:11px;
+	margin-top:-23px;
+}
+
+.content .clmn .drgt .gallery .scroll ul
+{
+	padding:0;
+	margin:0;
+	list-style:none;
+	background:none;
+}
+
+.content .clmn .drgt .gallery .scroll ul li
+{
+	padding:0;
+	margin:0;
+	list-style:none;
+	background:none;
+	display:block;
+	width:66px;
+	height:66px;
+	padding-bottom:20px;
+	float:left;
+	margin:0 5px;
+}
+
+.content .clmn .drgt .gallery .scroll ul li .item
+{
+	border-radius:10px;
+	padding:2px;
+}
+
+.content .clmn .drgt .gallery .scroll ul li .item.activeig
+{
+	background:#85d1cf;
+}
+
+.content .clmn .drgt .gallery .scroll ul li .item a
+{
+	width:62px;
+	height:62px;
+	display:block;
+	text-decoration:none;
+	border-radius:8px;
+	background:#fff;
+	position:relative;
+	overflow:hidden;
+}
+
+.content .clmn .drgt .gallery .scroll ul li .item span
+{
+	position:absolute;
+	background:none;
+	height:auto;
+	padding-top:3px;
+	font-size:11px;
+	text-align:center;
+}
+
+.content .clmn .drgt .gallery .scroll ul li .item span a
+{
+	text-align:center;
+	background:none;
+	height:auto;
+}
+
+.content .clmn .drgt .gallery .itemlist
+{
+	display:none;
+}
+
+.content .clmn .drgt .basket
+{
+	width:253px;
+	float:right;
+	padding-top:10px;
+}
+
+.content .clmn .drgt .basket .add
+{
+	position:relative;
+	height:57px;
+	background:url(basket01.png) center center no-repeat;
+	overflow:hidden;
+}
+
+.content .clmn .drgt .basket .add .bcnt
+{
+	width:26px;
+	height:20px;
+	border-top:1px solid #07a5a1;
+	border-left:1px solid #07a5a1;
+	border-right:1px solid #088d8a;
+	border-bottom:1px solid #088d8a;
+	position:absolute;
+	top:14px;
+	left:14px;
+	background:#fff;
+	box-shadow:inset 1px 1px 1px rgba(32, 194, 190, 0.68);
+}
+
+.content .clmn .drgt .basket .add .bcnt input
+{
+	border:none;
+	background:none;
+	width:26px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	color:#7a7a7a;
+	font-family:Tahoma;
+	font-size:12px;
+	outline:none;
+}
+
+.content .clmn .drgt .basket .add .bcnt-p
+{
+	display:block;
+	width:11px;
+	height:10px;
+	color:#fff;
+	left:42px;
+	top:14px;
+	font-size:11px;
+	text-align:center;
+	text-decoration:none;
+	position:absolute;
+	line-height:10px;
+	border-top:1px solid #07a5a1;
+	border-right:1px solid #088d8a;
+	background:#088d8a url(arr_top0.gif) center center no-repeat;
+	border-radius:0 3px 0 0;
+}
+
+.content .clmn .drgt .basket .add .bcnt-m
+{
+	display:block;
+	width:11px;
+	height:10px;
+	color:#fff;
+	background:#088d8a;
+	left:42px;
+	top:25px;
+	font-size:11px;
+	text-align:center;
+	text-decoration:none;
+	position:absolute;
+	line-height:10px;
+	border-bottom:1px solid #088d8a;
+	border-right:1px solid #088d8a;
+	background:#088d8a url(arr_bot0.gif) center center no-repeat;
+	border-radius:0 0 3px 0;
+}
+
+.content .clmn .drgt .basket .add .btn
+{
+	width:227px;
+	height:43px;
+	line-height:43px;
+	background-color:transparent;
+	background:url(white_ba.png) 62px 11px no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:3px 0 0 3px;
+	font-size:12px;
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#fff;
+	text-shadow:1px 1px 1px #079c9c;
+	outline:none;
+	padding-left:94px;
+}
+
+.content .clmn .drgt .basket .minimum_amount_notice {
+    font-size: 11px;
+    color: #ff6600;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.content .clmn .drgt .basket .delay
+{
+	height:57px;
+	position:relative;
+	overflow:hidden;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/later.png) center center no-repeat;
+}
+
+.content .clmn .drgt .basket .delay a
+{
+	display:block;
+	height:43px;
+	line-height:43px;
+	width:247px;
+	color:#36b0a6;
+	font-size:14px;
+	text-align:center;
+	text-decoration:none;
+	margin:3px 0 0 3px;
+	text-shadow:1px 1px 1px #fff;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/buttons/later.png) 40px 11px no-repeat;
+	padding-left:12px;
+}
+
+.content .clmn .drgt .basket .delay a:hover
+{
+	color:#07a5a1;
+}
+
+.go_to_cart_button {
+	display: block;
+	width: 167px;
+	height: 42px;
+	background: url('http://tumen.espartos.ru/bitrix/templates/espartos/images/buttons/orange_cart_button.png');
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #8c5900;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 15px 0 0 85px;
+	position: relative;
+}
+
+.go_to_cart_button:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.go_to_cart_button .quantity_counter {
+	position: absolute;
+	top: 17px;
+	left: 15px;
+	background-color: #ffffff;
+	border: 1px solid #b57300;
+	font-size: 12px;
+	color: #c0c0c0;
+	text-align: center;
+	width: 26px;
+	height: 14px;
+	line-height: 14px;
+	text-shadow: none;
+	font-weight: normal;
+}
+
+.content .clmn .product_name
+{
+	color:#2c2c2c;
+	font-size:20px;
+	padding:5px;
+}
+
+.content .clmn .tabs
+{
+	position:relative;
+}
+
+.content .clmn .tabs .tlinks
+{
+	position:relative;
+	z-index:10;
+}
+
+.content .clmn .tabs .tlinks a
+{
+	float:left;
+	display:inline-block;
+	height:43px;
+	line-height:43px;
+	font-size:16px;
+	text-decoration:none;
+	color:#2c2c2c;
+	padding:0 7px;
+	position:relative;
+}
+
+.content .clmn .tabs .tlinks a:hover
+{
+	color:#26b2ae;
+}
+
+.content .clmn .tabs .tlinks a .inside
+{
+	display:block;
+	height:43px;
+	line-height:43px;
+	padding:0 12px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/tabs.png) left -172px repeat-x;
+}
+
+.content .clmn .tabs .tlinks a .tab_review
+{
+	display:block;
+	height:43px;
+	line-height:43px;
+	padding-left:20px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/icons/review.png) left 16px no-repeat;
+}
+
+.content .clmn .tabs .tlinks a .tab_question
+{
+	display:block;
+	height:43px;
+	line-height:43px;
+	padding-left:15px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/icons/questions.png) left 16px no-repeat;
+}
+
+.content .clmn .tabs .tlinks a .lc
+{
+	display:block;
+	width:7px;
+	height:43px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/tabs.png) left -344px no-repeat;
+}
+
+.content .clmn .tabs .tlinks a .rc
+{
+	display:block;
+	width:7px;
+	height:43px;
+	position:absolute;
+	top:0;
+	right:0;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/tabs.png) left -215px no-repeat;
+}
+
+.content .clmn .tabs .tlinks a.activetab
+{
+	color:#6c716c;
+	cursor:default;
+}
+
+.content .clmn .tabs .tlinks a.activetab .inside
+{
+	background-position:left -43px;
+}
+
+.content .clmn .tabs .tlinks a.activetab .lc
+{
+	background-position:left 0px;
+}
+
+.content .clmn .tabs .tlinks a.activetab .rc
+{
+	background-position:left -86px;
+}
+
+.content .clmn .tabs .tlinks a .lcr
+{
+	background-position:left -129px;
+}
+
+.content .clmn .tabs .tlinks .rclst
+{
+	display:inline-block;
+	width:7px;
+	height:43px;
+	float:left;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/tabs.png) left -258px no-repeat;
+}
+
+.content .clmn .tabs .tlinks .rclst.rclstactive
+{
+	background-position:left -301px;
+}
+
+.content .clmn .tabs .tpages
+{
+	border:1px solid #c2c2c2;
+	border-radius:0 10px 10px 10px;
+	padding:20px;
+	background:#fff;
+	position:relative;
+	margin-top:-2px;
+	z-index:5;
+}
+
+.content .clmn .tabs .tpages .page_define
+{
+	display:none;
+}
+
+.content .clmn .tabs .tpages .write
+{
+	width:60%;
+	float:left;
+	font-size:14px;
+	padding-left:2px;
+}
+
+.content .clmn .tabs .tpages .write a
+{
+	color:#3f3f3f;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/icons/pencil.png) left 3px no-repeat;
+	padding-left:12px;
+}
+
+.content .clmn .tabs .tpages .write a:hover
+{
+	color:#26b2ae;
+}
+
+.content .clmn .tabs .tpages .rules
+{
+	width:35%;
+	float:right;
+	text-align:right;
+	padding-top:1px;
+	padding-right:2px;
+}
+
+.content .clmn .tabs .tpages .rules a
+{
+	color:#3f3f3f;
+}
+
+.content .clmn .tabs .tpages .rules a:hover
+{
+	color:#26b2ae;
+}
+
+.content .clmn .tabs .tpages .review_field
+{
+	height:104px;
+	position:relative;
+	padding:0px 71px;
+}
+
+.content .clmn .tabs .tpages .review_field .inside
+{
+	height:104px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/review.png) left -104px repeat-x;
+}
+
+.content .clmn .tabs .tpages .review_field .ils
+{
+	width:71px;
+	height:104px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/review.png) left 0px no-repeat;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:5;
+}
+
+.content .clmn .tabs .tpages .review_field .irs
+{
+	width:71px;
+	height:104px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/review.png) left -208px no-repeat;
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:5;
+}
+
+.content .clmn .tabs .tpages .review_field .lsd
+{
+	width:707px;
+	height:79px;
+	top:18px;
+	left:7px;
+	position:absolute;
+	z-index:10;
+}
+
+.content .clmn .tabs .tpages .review_field .lsd textarea
+{
+	width:707px;
+	height:49px;
+	font-family:Tahoma;
+	font-size:14px;
+	overflow:auto;
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+	resize:none;
+	outline:none;
+}
+
+.content .clmn .tabs .tpages .review_field .review_author
+{
+	width:707px;
+	height:24px;
+	border:1px solid #e5e5e5;
+	border-radius:10px;
+	position:absolute;
+	bottom: 7px;
+	left:7px;
+	z-index:15;
+	background:#f9f9f9;
+}
+
+.content .clmn .tabs .tpages .review_field .review_author input
+{
+	width:687px;
+	height:24px;
+	font-family:Arial;
+	font-size:11px;
+	font-style:italic;
+	background:none;
+	border:none;
+	padding:0 10px;
+	margin:0;
+	outline:none;
+}
+
+.content .clmn .tabs .tpages .review_field .rsd
+{
+	width:186px;
+	height:79px;
+	top:18px;
+	right:7px;
+	position:absolute;
+	z-index:10;
+}
+
+.content .clmn .tabs .tpages .review_field .rating
+{
+	height:47px;
+	border:1px solid #e5e5e5;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/review_rating_bg.gif) left bottom repeat-x;
+	overflow:hidden;
+}
+
+.content .clmn .tabs .tpages .review_field .rating .rating_row
+{
+	font-size:12px;
+	font-family:Arial;
+	color:#5b5d5d;
+	height:15px;
+	line-height:15px;
+	padding:4px 0 3px;
+}
+
+.content .clmn .tabs .tpages .review_field .rating .rating_row .rating_caption
+{
+	width:98px;
+	float:left;
+	padding-left:5px;
+}
+
+.content .clmn .tabs .tpages .review_field .rating .rating_row .stars
+{
+	width:78px;
+	float:right;
+}
+
+.content .clmn .tabs .tpages .review_field .rating .rating_row .stars span
+{
+	display:block;
+	width:15px;
+	height:13px;
+	margin:0;
+	float:left;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/stars_review.png) left center no-repeat;
+}
+
+.content .clmn .tabs .tpages .review_field .rating .rating_row .stars.canvote span
+{
+	cursor:pointer;
+}
+
+.content .clmn .tabs .tpages .review_field .rating .rating_row .stars span.active
+{
+	background-position:left top;
+}
+
+.content .clmn .tabs .tpages .review_field .rating .rating_row .stars span.hover
+{
+	background-position:left bottom;
+}
+
+.content .clmn .tabs .tpages .review_field .rating .rating_row .stars a
+{
+	display:block;
+	width:15px;
+	height:13px;
+	margin:0;
+	float:left;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/stars_review.png) left center no-repeat;
+}
+
+.content .clmn .tabs .tpages .review_field .rating .rating_row .stars a.active
+{
+	background-position:left top;
+}
+
+.content .clmn .tabs .tpages .review_field .rating .rating_row .stars a.hover
+{
+	background-position:left bottom;
+}
+
+.content .clmn .tabs .tpages .review_field .send
+{
+	padding-top:4px;
+}
+
+.content .clmn .tabs .tpages .review_field .send input
+{
+	width:186px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#fff;
+	text-shadow:1px 1px #0b8481;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/buttons/add_review.png) no-repeat;
+	border:none;
+	cursor:pointer;
+}
+
+.content .clmn .tabs .tpages .review_list
+{
+	padding:0 0 2px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/review_delimeter.png) -30px bottom no-repeat;
+}
+
+.content .clmn .tabs .tpages .review_item
+{
+	padding:12px 0 9px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/review_delimeter.png) -30px top no-repeat;
+}
+
+.content .clmn .tabs .tpages .review_item .rls
+{
+	width:670px;
+	float:left;
+	padding:0 0 0 80px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/elements/nophoto.gif) 10px top no-repeat;
+	min-height:52px;
+}
+
+.content .clmn .tabs .tpages .review_item .rls .rinfo
+{
+	padding:2px 0;
+	color:#323232;
+}
+
+.content .clmn .tabs .tpages .review_item .rls .rinfo .date
+{
+	font-size:12px;
+	font-style:italic;
+	font-family:Arial;
+	color:#808080;
+}
+
+.content .clmn .tabs .tpages .review_item .rls .rating
+{
+	position:relative;
+}
+
+.content .clmn .tabs .tpages .review_item .rls .rating span
+{
+	display:block;
+	width:15px;
+	height:13px;
+	margin:0;
+	float:left;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/stars_review.png) left center no-repeat;
+}
+
+.content .clmn .tabs .tpages .review_item .rls .rating span.active
+{
+	background-position:left top;
+}
+
+.content .clmn .tabs .tpages .review_item .rls .rtext
+{
+	padding-top:5px;
+}
+
+.content .clmn .tabs .tpages .review_item .rrs
+{
+	width:127px;
+	height:71px;
+	float:right;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/useful.png) left top no-repeat;
+}
+
+.content .clmn .tabs .tpages .review_item .rrs .caption
+{
+	padding:14px 7px 1px 15px;
+	text-align:center;
+}
+
+.content .clmn .tabs .tpages .review_item .rrs .revlnk
+{
+	padding:2px 7px 1px 17px;
+	text-align:center;
+}
+
+.content .clmn .tabs .tpages .review_item .rrs .revlnk a
+{
+	color:#323232;
+}
+
+.content .clmn .tabs .tpages .review_item .rrs .revlnk span
+{
+	font-size:11px;
+	padding-left:2px;
+	color:#808080;
+}
+
+.content .clmn .tabs .tpages .question_field
+{
+	height:104px;
+	position:relative;
+	padding:0px 71px;
+}
+
+.content .clmn .tabs .tpages .question_field .inside
+{
+	height:104px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/review.png) left -104px repeat-x;
+}
+
+.content .clmn .tabs .tpages .question_field .ils
+{
+	width:71px;
+	height:104px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/review.png) left 0px no-repeat;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:5;
+}
+
+.content .clmn .tabs .tpages .question_field .irs
+{
+	width:71px;
+	height:104px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/review.png) left -208px no-repeat;
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:5;
+}
+
+.content .clmn .tabs .tpages .question_field .lsd
+{
+	width:900px;
+	height:79px;
+	top:18px;
+	left:7px;
+	position:absolute;
+	z-index:10;
+}
+
+.content .clmn .tabs .tpages .question_field .lsd textarea
+{
+	width:900px;
+	height:49px;
+	font-family:Tahoma;
+	font-size:14px;
+	overflow:auto;
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+	resize:none;
+	outline:none;
+}
+
+.content .clmn .tabs .tpages .question_field .question_author
+{
+	width:707px;
+	height:24px;
+	border:1px solid #e5e5e5;
+	border-radius:10px;
+	position:absolute;
+	bottom: 7px;
+	left:7px;
+	z-index:15;
+	background:#f9f9f9;
+}
+
+.content .clmn .tabs .tpages .question_field .question_author input
+{
+	width:687px;
+	height:24px;
+	font-family:Arial;
+	font-size:11px;
+	font-style:italic;
+	background:none;
+	border:none;
+	padding:0 10px;
+	margin:0;
+	outline:none;
+}
+
+.content .clmn .tabs .tpages .question_field .question_send
+{
+	width:186px;
+	height:26px;
+	bottom:7px;
+	right:7px;
+	position:absolute;
+	z-index:10;
+}
+
+.content .clmn .tabs .tpages .question_field .question_send input
+{
+	width:186px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#fff;
+	text-shadow:1px 1px #0b8481;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/buttons/add_review.png) no-repeat;
+	border:none;
+	cursor:pointer;
+}
+
+.content .clmn .tabs .tpages .question_list
+{
+	padding:0 0 2px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/review_delimeter.png) -30px bottom no-repeat;
+}
+
+.content .clmn .tabs .tpages .question_item
+{
+	padding:12px 0 9px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/review_delimeter.png) -30px top no-repeat;
+}
+
+.content .clmn .tabs .tpages .question_item .qls
+{
+	width:670px;
+	float:left;
+	padding:0 0 0 80px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/elements/nophoto.gif) 10px top no-repeat;
+	min-height:52px;
+}
+
+.content .clmn .tabs .tpages .question_item .qls .qinfo
+{
+	padding:2px 0;
+	color:#323232;
+}
+
+.content .clmn .tabs .tpages .question_item .qls .qinfo .date
+{
+	font-size:12px;
+	font-style:italic;
+	font-family:Arial;
+	color:#808080;
+}
+
+.content .clmn .tabs .tpages .question_item .qls .qtext
+{
+	padding-top:5px;
+}
+
+.content .clmn .tabs .tpages .question_item .qanswer
+{
+	border:1px solid #cccccc;
+	border-radius:10px;
+	-moz-box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+	margin:0 3px 0 80px;
+	background:#fff;
+	padding:2px;
+}
+
+.content .clmn .tabs .tpages .question_item .qanswer .inner
+{
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/answer_bg.gif) left center repeat-x;
+	color:#949494;
+	padding:8px;
+	border-radius:10px;
+}
+
+.content .clmn .tabs .tpages .question_item .qrs
+{
+	width:127px;
+	height:71px;
+	float:right;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/useful.png) left top no-repeat;
+}
+
+.content .clmn .tabs .tpages .question_item .qrs .caption
+{
+	padding:14px 7px 1px 15px;
+	text-align:center;
+}
+
+.content .clmn .tabs .tpages .question_item .qrs .qlnk
+{
+	padding:2px 7px 1px 17px;
+	text-align:center;
+}
+
+.content .clmn .tabs .tpages .question_item .qrs .qlnk a
+{
+	color:#323232;
+}
+
+.content .clmn .tabs .tpages .question_item .qrs .qlnk span
+{
+	font-size:11px;
+	padding-left:2px;
+	color:#808080;
+}
+
+
+
+.content .navchain
+{
+	color:#000;
+	padding:6px 0 10px;
+}
+
+.content .navchain a
+{
+	color:#000;
+}
+
+.content .navchain a:hover
+{
+	color:#6c6b67;
+}
+
+.content .pagen
+{
+	text-align:center;
+	padding:5px 0 25px 0;
+	position:relative;
+}
+
+.content .pagen span
+{
+	padding:0 1px;
+}
+
+.content .pagen a
+{
+	color:#4a3d31;
+}
+
+.content .pagen a:hover
+{
+	color:#000;
+}
+
+.content .pagen .showall
+{
+	position:absolute;
+	right:0;
+}
+
+.content .pagen .showall a#reset-filter
+{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.content .pagen .showall a#reset-filter:hover
+{
+	text-decoration: underline;
+}
+
+.content .panel
+{
+	height:24px;
+	color:#fff;
+	line-height:24px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/panels.gif) left bottom repeat-x;
+	padding:0 10px;
+	text-shadow:1px 1px 1px #4b4a45;
+}
+
+.content .panel.turquoise
+{
+	background-position:left top;
+	text-shadow:1px 1px 1px #037b74;
+}
+
+.content .panel.orange
+{
+	background-position:left center;
+	text-shadow:1px 1px 1px #db7f03;
+}
+
+.content .panel span
+{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.content .panel a
+{
+	color:#fff;
+}
+
+.content .panel .count
+{
+	position:absolute;
+	margin:3px 0 0 7px;
+	color:#5e5d5b;
+	font-size:11px;
+	line-height:17px;
+	text-shadow:none;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.content .panel .count .i
+{
+	display:block;
+	position:absolute;
+	height:18px;
+	padding:0 10px 0 14px;
+
+}
+
+.content .panel .count .i .l
+{
+	display:block;
+	position:absolute;
+	width:14px;
+	height:18px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/cnt.png) left top no-repeat;
+	left:0;
+}
+
+.content .panel .count .i .r
+{
+	display:block;
+	position:absolute;
+	width:10px;
+	height:18px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/cnt.png) right bottom no-repeat;
+	right:0;
+}
+
+.content .panel .count .i .b
+{
+	display:block;
+	position:relative;
+	height:18px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/cnt.png) left center repeat-x;
+	font-weight:normal;
+}
+
+.content .panel .count .i .b b
+{
+	padding-left:1px;
+}
+
+.content .panel
+{
+	height:24px;
+	color:#fff;
+	line-height:24px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/panels.gif) left bottom repeat-x;
+	padding:0 10px;
+	text-shadow:1px 1px 1px #4b4a45;
+}
+
+.content .colorpanel
+{
+	height:34px;
+	color:#000;
+	line-height:auto;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/color_panel.gif) left top repeat-x;
+	padding:0 10px;
+	border-top:1px solid #00d4d3;
+	border-bottom:1px solid #006260;
+	border-left:1px solid #008c8b;
+	border-right:1px solid #008c8b;
+	border-radius:4px;
+}
+
+.content .colorpanel .caption
+{
+	width:40px;
+	height:34px;
+	line-height:34px;
+	float:left;
+}
+
+.content .colorpanel .showall
+{
+	width:140px;
+	height:34px;
+	line-height:34px;
+	float:right;
+	text-align:right;
+}
+
+.content .colorpanel a
+{
+	color:#000;
+}
+
+.content .colorpanel .params
+{
+	width:600px;
+	float:left;
+	height:34px;
+}
+
+.content .colorpanel .params .cmain
+{
+	width:112px;
+	float:left;
+	padding-top:7px;
+}
+
+.content .colorpanel .params .cmain select
+{
+	width:112px;
+}
+
+.content .colorpanel .params .cadditional
+{
+	padding-left:10px;
+	width:138px;
+	float:left;
+	padding-top:7px;
+}
+
+.content .colorpanel .params .cadditional select
+{
+	width:138px;
+}
+
+.content .colorpanel .params .picture
+{
+	padding-left:10px;
+	width:235px;
+	float:left;
+	padding-top:7px;
+}
+
+.content .colorpanel .params .picture select
+{
+	width:235px;
+}
+
+.content .colorpanel .params .width
+{
+	padding-left:10px;
+	width:113px;
+	float:left;
+	padding-top:7px;
+}
+
+.content .colorpanel .params .width select
+{
+	width:113px;
+}
+
+.content .colorpanel .params .cover
+{
+	padding-left:10px;
+	width:95px;
+	float:left;
+	padding-top:7px;
+}
+
+.content .colorpanel .params .cover select
+{
+	width:95px;
+}
+
+.content .sortpanel
+{
+	height:24px;
+	color:#fff;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/panels.gif) left center repeat-x;
+	padding:0 10px;
+}
+
+.content .sortpanel .caption
+{
+	width:90px;
+	height:24px;
+	float:left;
+	line-height:24px;
+}
+
+.content .sortpanel .items
+{
+	width:650px;
+	height:21px;
+	padding-top:3px;
+	float:left;
+}
+
+.content .sortpanel .items i.triangle
+{
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    position: relative;
+    top: 10px;
+    margin: 0 0 0 5px;
+}
+
+.content .sortpanel .items .desc i.triangle
+{
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-bottom-color: #ffffff;
+    position: relative;
+    bottom: 8px;
+    top: auto;
+    margin: 0 0 0 5px;
+}
+
+.content .sortpanel .items .itemactive i.triangle
+{
+    border-color: transparent;
+    border-top-color: #414141;
+}
+
+.content .sortpanel .items .itemactive .desc i.triangle
+{
+    border-color: transparent;
+    border-bottom-color: #414141;
+}
+
+.content .sortpanel .items .itemactive
+{
+	height:21px;
+	display:inline-block;
+	padding:0 17px;
+	position:relative;
+	color:#414141;
+}
+
+.content .sortpanel .items .itemactive .l
+{
+	width:17px;
+	height:21px;
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/sort.png) left top repeat-x;
+}
+
+.content .sortpanel .items .itemactive .r
+{
+	width:17px;
+	height:21px;
+	display:block;
+	position:absolute;
+	right:0;
+	top:0;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/sort.png) left bottom repeat-x;
+}
+
+.content .sortpanel .items .itemactive .inside
+{
+	height:21px;
+	line-height:19px;
+	display:inline-block;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/sort.png) left center repeat-x;
+}
+
+.content .sortpanel .items .itemactive a
+{
+	color:#414141;
+    text-decoration: none;
+}
+
+.content .sortpanel .items .item
+{
+	padding-top:3px;
+	height:19px;
+	display:inline-block;
+	padding:0 10px;
+	position:relative;
+}
+
+.content .sortpanel .items .item a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.content .sortpanel .items .item a:hover
+{
+	color:#ffecc8;
+	text-decoration:none;
+}
+
+.content .displaypanel
+{
+	padding:6px 0 5px;
+	color:#818181;
+}
+
+.content .displaypanel span
+{
+	color:#afacac;
+}
+
+.content .displaypanel .foundcount
+{
+	padding:2px 0;
+	width:40%;
+	float:left;
+}
+
+.content .displaypanel .showby
+{
+	width:50%;
+	float:right;
+	text-align:right;
+}
+
+.content .displaypanel .bythis
+{
+	text-decoration:none;
+	color:#000;
+	display:inline-block;
+	padding:2px 4px;
+	background:#e9e9e9;
+	border-radius:3px;
+	box-shadow:inset 1px 1px 1px #ccc;
+}
+
+.carousel
+{
+	height:277px;
+	position:relative;
+	overflow:hidden;
+}
+
+.carousel .mlft
+{
+	display:block;
+	width:30px;
+	height:64px;
+	position:absolute;
+	top:50%;
+	left:0;
+	margin-top:-32px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/arrows_scroll.png) left bottom no-repeat;
+	z-index:30;
+}
+
+.carousel .mrgt
+{
+	display:block;
+	width:30px;
+	height:64px;
+	position:absolute;
+	top:50%;
+	right:0;
+	margin-top:-32px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/arrows_scroll.png) left top no-repeat;
+	z-index:30;
+}
+
+.carousel .inside
+{
+	height:275px;
+	position:relative;
+	overflow:hidden;
+	border:1px solid #d8d5d3;
+	background:#fff;
+	z-index:10;
+}
+
+.carousel #CarouselBlock
+{
+	height:275px;
+	position:relative;
+	overflow:hidden;
+}
+
+.carousel .ctl
+{
+	width:20px;
+	height:20px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:20;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/carousel_corners.png) left top no-repeat;
+}
+
+.carousel .ctr
+{
+	width:20px;
+	height:20px;
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:20;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/carousel_corners.png) right top no-repeat;
+}
+
+.carousel .cbl
+{
+	width:20px;
+	height:20px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:20;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/carousel_corners.png) left bottom no-repeat;
+}
+
+.carousel .cbr
+{
+	width:20px;
+	height:20px;
+	position:absolute;
+	bottom:0;
+	right:0;
+	z-index:20;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/carousel_corners.png) right bottom no-repeat;
+}
+
+.carousel ul
+{
+	list-style:none;
+	background:none;
+	padding:0;
+	margin:0;
+}
+
+.carousel ul li
+{
+	width:763px;
+	height:275px;
+	display:block;
+	float:left;
+	list-style:none;
+	background:none;
+	padding:0;
+	margin:0;
+}
+
+.goods
+{
+	padding:0;
+}
+
+.goods .separator
+{
+	width:45px;
+	height:226px;
+	float:left;
+	background:url(goods_se.png) center 3px no-repeat;
+}
+
+.goods .separator.lssep
+{
+	width:42px;
+}
+
+.goods .separator.plussep
+{
+	width:70px;
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+	line-height:180px;
+	color:#a7a6a6;
+	text-shadow:1px 1px #fff;
+	background:none;
+}
+
+.goods .separator.equalsep
+{
+	position:relative;
+	width:220px;
+	font-size:50px;
+	font-weight:bold;
+	text-align:left;
+	line-height:normal;
+	color:#a7a6a6;
+	text-shadow:1px 1px #fff;
+	background:none;
+	margin-left:17px;
+}
+
+.goods .separator.equalsep .eqsign
+{
+	display:block;
+	padding-left:3px;
+	line-height:180px;
+	position:relative;
+}
+
+.goods .eqsign .summ
+{
+	display:block;
+	position:absolute;
+	line-height:normal;
+	color:#949392;
+	font-weight:bold;
+	font-size:26px;
+	padding:2px 0;
+	position:relative;
+	left:42px;
+	bottom:105px;
+}
+
+.goods .eqsign .summ .coins
+{
+	padding-left:1px;
+	font-size:16px;
+	text-decoration:underline;
+}
+
+.goods .eqsign .summ .currency
+{
+	font-weight:normal;
+}
+
+.goods .result
+{
+	width:195px;
+	height:101px;
+	position:absolute;
+	left:0;
+	bottom:10px;
+	padding:4px 20px 0 5px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/complect_delimeter.png) center top no-repeat;
+}
+
+.goods .result .inside
+{
+	width:195px;
+	height:101px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/complect.png) center center no-repeat;
+}
+
+.goods .result .inside .row
+{
+	font-weight:normal;
+	font-size:12px;
+	padding:3px 17px;
+}
+
+.goods .result .inside .row .articul
+{
+	width:120px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+}
+
+.goods .result .inside .row .articul .wrap
+{
+	width:400px;
+}
+
+.goods .result .inside .row .count
+{
+	width:26px;
+	height:14px;
+	border:1px solid #aeaeae;
+	float:right;
+	background:#fff;
+}
+
+.goods .result .inside .row .count input
+{
+	width:26px;
+	height:14px;
+	font-size:12px;
+	font-family:Tahoma;
+	line-height:14px;
+	text-align:center;
+	color:#7a7a7a;
+	border:none;
+	padding:0;
+	margin:0;
+	background:none;
+	outline:none;
+}
+
+.goods .result .inside .basket
+{
+	padding:7px 12px 3px;
+	overflow:hidden;
+	border-top:2px solid #fff;
+}
+
+.goods .result .inside .basket input
+{
+	font-size:12px;
+	font-family:Tahoma;
+	text-decoration:underline;
+	cursor:pointer;
+	text-align:center;
+	color:#484848;
+	border:none;
+	background-color:transparent;
+	width:100%;
+	line-height:16px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/buttons/complect_basket.png) 22px center no-repeat;
+	padding-left:22px;
+}
+
+.goods .item
+{
+	width:157px;
+	height:190px;
+	float:left;
+	padding:18px 0;
+}
+
+.goods .item .discount
+{
+	width:68px;
+	height:43px;
+	position:absolute;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/labels/discount.png) no-repeat;
+	z-index:40;
+	margin:-14px 0 0 105px;
+	padding-top:20px;
+	padding:26px 3px 0 0;
+}
+
+.content .clmn .dlft .info .discount
+{
+	width:68px;
+	height:43px;
+	position:absolute;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/labels/discount.png) no-repeat;
+	z-index:60;
+	padding-top:20px;
+	padding:26px 3px 0 0;
+    top: -25px;
+    right: -15px;
+    z-index: 100;
+}
+
+.goods .item .pic
+{
+	width:157px;
+	height:154px;
+	position:relative;
+	overflow:hidden;
+	z-index:10;
+}
+
+.goods .item .pic .info
+{
+	width:157px;
+	/*height:60px;*/
+	height: 44px;
+	color:#fff;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:20;
+	overflow:hidden;
+	background:url(3c3c3c_8.png);
+}
+
+.goods .item .pic .info .label
+{
+	width:36px;
+	height:18px;
+	color:#fff;
+	position:absolute;
+	top:4px;
+	right:4px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/labels/new.png);
+}
+
+.goods .item .pic .info .label.bestseller
+{
+	width:33px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/labels/hit.png);
+}
+
+.goods .item .pic .info .label span
+{
+	display:block;
+	font-size:11px;
+	line-height:16px;
+	text-align:center;
+	padding-left:5px;
+}
+
+.goods .item .pic .info .label.bestseller span
+{
+	line-height:17px;
+}
+
+.goods .item .pic .info a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.goods .item .pic .info .articul
+{
+	font-size:12px;
+	margin:8px 43px 0 5px;
+	position:relative;
+	overflow:hidden;
+	line-height:10px;
+}
+
+.goods .item .pic .info .articul .txt
+{
+	position:relative;
+	height:12px;
+	width:500px;
+	overflow:hidden;
+}
+
+.goods .item .pic .info .articul .txt a
+{
+	text-decoration:none;
+}
+
+.goods .item .pic .info .articul .txt a:hover
+{
+	text-decoration:underline;
+}
+
+.goods .item .pic .info .maker
+{
+	font-size:13px;
+	font-weight:bold;
+	margin:6px 6px 0 5px;
+	position:relative;
+	overflow:hidden;
+	line-height:10px;
+	text-overflow:ellipsis;
+}
+
+.goods .item .pic .info .maker .txt
+{
+	position:relative;
+	height:13px;
+	/*width:500px;*/
+	overflow:hidden;
+	-webkit-text-overflow:ellipsis;
+	-moz-text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+.goods .item .pic .info .rating
+{
+	height:16px;
+	overflow:hidden;
+	position:relative;
+	margin:1px 6px 0 5px;
+}
+
+.goods .item .pic .info .rating span
+{
+	display:block;
+	width:16px;
+	height:16px;
+	float:left;
+	margin-right:1px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/stars.png) left center no-repeat;
+}
+
+.goods .item .pic .info .rating span.active
+{
+	background-position:left top;
+}
+
+.goods .item .pic .info .state
+{
+	font-size:11px;
+	position:absolute;
+	bottom:6px;
+	right:5px;
+	color:#00ffea;
+}
+
+.goods .item .pic .info .noaval
+{
+	color:#ffa900;
+}
+
+.goods .item .pic .info .none
+{
+	color:#d3da36;
+}
+
+.goods .item .order
+{
+	height:34px;
+	border:1px solid #c1c1c1;
+	position:relative;
+	overflow:hidden;
+	background:#fefefe url(goodspan.gif) left bottom repeat-x;
+}
+
+.goods .item .order .basket
+{
+	width:49px;
+	height:34px;;
+	background:url(goodspan.png) left center no-repeat;
+	float:right;
+}
+
+.goods .item .order .basket a
+{
+	display:block;
+	width:34px;
+	height:23px;
+	margin: 5px 9px 6px 5px;
+	background:url(basket02.png) 0 top no-repeat;
+}
+
+.goods .item .order .basket a:hover
+{
+	background:url(basket02.png) 0 center no-repeat;
+}
+
+.goods .item .order .basket a.ins
+{
+	display:block;
+	width:34px;
+	height:23px;
+	margin: 5px 9px 6px 5px;
+	background:url(basket02.png) 0 bottom no-repeat;
+}
+
+.goods .item .order .price
+{
+	width:95px;
+	height:34px;
+	font-size:16px;
+	font-weight:bold;
+	padding-left:5px;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	line-height:28px;
+	color:#000;
+}
+
+.goods .item .order .price.fallen
+{
+	padding-top:5px;
+	line-height:10px;
+	color:#06a2a2;
+}
+
+.goods .item .order .price .txt
+{
+	width:200px;
+	height:34px;
+	position:relative;
+	overflow:hidden;
+}
+
+.goods .item .order .price.noprice
+{
+	padding-top:3px;
+	text-shadow:1px 1px #fff;
+	color:#a2a2a2;
+	text-align:center;
+	font-weight:normal;
+	width:145px;
+}
+
+.goods .item .order .price.noprice .txt
+{
+	width:145px;
+}
+
+.goods .item .order .price span
+{
+	font-size:12px;
+	padding-left:2px;
+}
+
+.goods .item .order .price span sup
+{
+	font-size:10px;
+	text-decoration:underline;
+}
+
+.goods .item .order .price .oldprice
+{
+	line-height:9px;
+	color:#000;
+	font-size:11px;
+	text-decoration:line-through;
+}
+
+.goods .item .order .price .oldprice span
+{
+	font-size:10px;
+	padding-left:2px;
+}
+
+.goods .item .order .price .oldprice span sup
+{
+	font-size:8px;
+	text-decoration:underline;
+}
+
+.goods .item .order .price .by_request
+{
+	color: #188b88;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.tooltip
+{
+	display:none;
+	height:24px;
+	padding:0 10px;
+	min-width:60px;
+	position:absolute;
+	z-index:30;
+	border-radius:7px;
+	-moz-box-shadow:2px 2px 3px rgba(65,35,0,0.7);
+	-webkit-box-shadow:2px 2px 3px rgba(65,35,0,0.7);
+	box-shadow:2px 2px 3px rgba(65,35,0,0.7);
+}
+
+.tooltip .tms
+{
+	display:block;
+	height:24px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/tooltip.png) left center repeat-x;
+}
+
+.tooltip .tls
+{
+	display:block;
+	height:24px;
+	width:33px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/tooltip.png) left top no-repeat;
+	z-index:35;
+}
+
+.tooltip .trs
+{
+	display:block;
+	height:24px;
+	width:33px;
+	position:absolute;
+	top:0;
+	right:0;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/tooltip.png) left bottom no-repeat;
+	z-index:35;
+}
+
+.tooltip .tt_text
+{
+	display:block;
+	position:relative;
+	height:24px;
+	line-height:24px;
+	white-wrap:nowrap;
+	text-align:center;
+	z-index:40;
+}
+
+.footer
+{
+	height:230px;
+	color:#fff;
+}
+
+.footer .inside
+{
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+}
+
+.footer .info
+{
+
+}
+
+.footer .info .logo
+{
+	width:159px;
+	height:56px;
+	float:left;
+	padding:0 50px 0 0;
+}
+
+.footer .info .logo a
+{
+	display:block;
+	width:159px;
+	height:56px;
+}
+
+.footer .info .counter
+{
+	width:88px;
+	height:31px;
+	float:right;
+	padding-top:28px;
+}
+
+.footer .info .copyrights
+{
+	width:630px;
+	float:left;
+	text-align:center;
+	font-size:11px;
+	line-height:16px;
+	color:#d9d9d9;
+	padding-top:7px;
+}
+
+.footer .info .copyrights .shop
+{
+	font-size:12px;
+	padding-bottom:5px;
+}
+
+.bmenu
+{
+	height:130px;
+	padding:17px 11px;
+}
+
+.bmenu .separator
+{
+	width:28px;
+	height:130px;
+	float:left;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/footer_delimeter.png) center center no-repeat;
+}
+
+.bmenu .clmn
+{
+	width:83px;
+	float:left;
+}
+
+.bmenu a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.bmenu a:hover
+{
+	color:#dfdfdf;
+}
+
+.bmenu .clmn div
+{
+	padding:4px 0;
+}
+
+.bmenu .clmn span
+{
+	text-transform:uppercase;
+	text-decoration:underline;
+}
+
+.overlay
+{
+	display:none;
+	position:absolute;
+	z-index:100;
+	background:url(3c3c3c_8.png);
+}
+
+.popup
+{
+	width:1px;
+	height:1px;
+	border:5px solid #fff;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/how_much.gif) center center;
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	display:none;
+	position:absolute;
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:150;
+}
+
+.popup .closepopup
+{
+	width:15px;
+	height:15px;
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/elements/close.gif) no-repeat;
+	z-index:160;
+}
+
+.popup .preloader
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.popup .preloader div
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-36px;
+	margin-left:-16px;
+}
+
+.popup .title
+{
+	height:1px;
+	display:none;
+	width:100%;
+	/*height:68px;*/
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/gap.png) no-repeat;
+	padding:0;
+	position:absolute;
+	z-index:155;
+	left:0;
+	top:15px;
+}
+
+.popup .title .txt
+{
+	font-size:14px;
+	text-align:right;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#f0f0f0;
+	padding:15px 100px 0 0;
+	height:35px;
+	line-height:35px;
+}
+
+.popup .inside
+{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+.popup .inside .wrap
+{
+	padding-top:85px;
+	position:relative;
+}
+
+.popup .inside .wrap .inner
+{
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+}
+
+.popup .inside .wrap .inner .htmlcode
+{
+	padding:10px;
+	position:relative;
+	overflow:hidden;
+}
+
+.popup .inside .wrap .inner .htmlcode .htmldata
+{
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow:auto;
+}
+
+.hlayer
+{
+	display:none;
+}
+
+.hm_dimensions
+{
+	width:15px;
+	float:right;
+	text-align:right;
+	color:#8b8a88;
+	font-size:12px;
+	line-height:16px;
+}
+
+.hm_format
+{
+	width:260px;
+	margin:0 auto;
+	font-size:14px;
+	padding-bottom:5px;
+}
+
+.hm_format .hm_caption
+{
+	width:100px;
+	float:left;
+}
+
+.hm_format .hm_sbox
+{
+	width: 90px;
+	float: right;
+}
+
+.hm_format .hm_sbox select
+{
+	width: 90px;
+}
+
+.hm_height
+{
+	width:260px;
+	margin:0 auto;
+	font-size:14px;
+	padding-bottom:5px;
+}
+
+.hm_height .hm_caption
+{
+	width:160px;
+	float:left;
+}
+
+.hm_height .hm_input
+{
+	width:50px;
+	height:16px;
+	float:right;
+	border:1px solid #adadb5;
+	background:#fff;
+	border-radius:3px;
+}
+
+.hm_height .hm_input input
+{
+	width:40px;
+	font:italic 11px Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+	line-height:16px;
+	background:none;
+	color:#8b8a88;
+	border:none;
+	padding:0 5px;
+	outline:none;
+}
+
+.hm_perimetr
+{
+	width:260px;
+	margin:0 auto;
+	font-size:14px;
+	padding-bottom:5px;
+}
+
+.hm_perimetr .hm_caption
+{
+	width:180px;
+	float:left;
+}
+
+.hm_perimetr .hm_input
+{
+	width:50px;
+	height:16px;
+	float:right;
+	border:1px solid #adadb5;
+	background:#fff;
+	border-radius:3px;
+}
+
+.hm_perimetr .hm_input input
+{
+	width:40px;
+	font:italic 11px Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+	line-height:16px;
+	background:none;
+	color:#8b8a88;
+	border:none;
+	padding:0 5px;
+	outline:none;
+}
+
+.hm_separator
+{
+	height:3px;
+	line-height:1px;
+	font-size:1px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/how_much_delimeter.png) center center no-repeat;
+}
+
+.hm_result
+{
+	font-size:13px;
+	text-align:center;
+	padding:5px 0 8px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/how_much_delimeter.png) center bottom no-repeat;
+}
+
+.hm_wname
+{
+	font-size:13px;
+	text-align:center;
+	padding:5px 0 8px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/lines/how_much_delimeter.png) center bottom no-repeat;
+	margin-bottom:10px;
+	color:#313540;
+	font-family:Georgia;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.hm_order
+{
+	text-align:center;
+	padding-top:8px;
+}
+
+.hm_order .hm_count
+{
+	display:inline-block;
+	height:26px;
+	width:38px;
+	border:1px solid #aaadb2;
+	background:#fff;
+}
+
+.hm_order .hm_count input
+{
+	width:38px;
+	border:none;
+	background:none;
+	font:italic 12px Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	color:#8b8a88;
+	outline:none;
+}
+
+.hm_order .hm_basket
+{
+	display:inline-block;
+	width:137px;
+	height:28px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/how_much_add.gif) left center repeat-x;
+}
+
+.hm_order .hm_basket input
+{
+	width:137px;
+	border:none;
+	background:none;
+	font:12px Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+	line-height:28px;
+	text-align:center;
+	color:#fff;
+	outline:none;
+	cursor:pointer;
+	height:28px;
+	line-height:28px;
+}
+
+.personal .sblock
+{
+	padding:15px;
+	width:330px;
+	height:110px;
+	float:left;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/sprites/personal_block.png) left top no-repeat;
+	margin:0 15px 10px 0;
+}
+
+.personal .sblock .sbcaption
+{
+	font-size:16px;
+	padding-bottom:8px;
+}
+
+.personal .sblock .sbdata
+{
+	font-family:Arial;
+	font-size:12px;
+}
+
+.personal .sblock .sbdata .sbrow
+{
+	padding-bottom:3px;
+}
+
+.personal .order_list table
+{
+	width:100%;
+}
+
+.personal .order_list table th
+{
+	height:30px;
+	line-height:30px;
+	color:#fff;
+	font-weight:bold;
+	border:1px solid #fff;
+	border-top: 1px solid #09a2a2;
+	padding:0 10px;
+	text-align:center;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/table_th.gif) repeat-x;
+}
+
+.personal .order_list table th.o_number
+{
+	border-left:1px solid #09a2a2;
+}
+
+.personal .order_list table th.o_status
+{
+	border-right:1px solid #09a2a2;
+}
+
+.personal .order_list table td
+{
+	border:1px solid #d6d6d4;
+	padding:5px 10px;
+	vertical-align:middle;
+}
+
+.personal .order_list table tr.inprogress td
+{
+	background:#fff3e6;
+}
+
+.personal .order_list table td.o_number
+{
+	text-align:center;
+}
+
+.personal .order_list table td.o_number span
+{
+	line-height:15px;
+	padding-left:21px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/icons/number.png) left 2px no-repeat;
+}
+
+.personal .order_list table td.o_datetime
+{
+	text-align:center;
+}
+
+.personal .order_list table td.o_datetime span
+{
+	line-height:15px;
+	padding-left:19px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/icons/calendar.png) no-repeat;
+}
+
+.personal .order_list table td.o_count
+{
+	text-align:center;
+}
+
+.personal .order_list table td.o_count span
+{
+	display:inline-block;
+	width:40px;
+	background:#f2f2f2;
+	border-radius:5px;
+	padding:2px 0;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.4);;
+}
+
+.personal .order_list table td.o_summ
+{
+	text-align:right;
+}
+
+.personal .order_list table td.o_status
+{
+	text-align:center;
+}
+
+.personal .order_list table td.o_status .canceled
+{
+	color:#df1000;
+}
+
+.personal .order_list table td.o_status .finished
+{
+	color:#008d8d;
+}
+
+.personal .order_list table td.o_status .progress
+{
+	color:#ff8700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.personal .order_detail table
+{
+	width:100%;
+}
+
+.personal .order_detail table th
+{
+	height:30px;
+	line-height:30px;
+	color:#fff;
+	font-weight:bold;
+	border:1px solid #fff;
+	border-top: 1px solid #09a2a2;
+	padding:0 10px;
+	text-align:center;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/table_th.gif) repeat-x;
+}
+
+.personal .order_detail table th.o_product
+{
+	border-left:1px solid #09a2a2;
+}
+
+.personal .order_detail table th.o_actions
+{
+	border-right:1px solid #09a2a2;
+}
+
+.personal .order_detail table td
+{
+	border:1px solid #d6d6d4;
+	padding:5px 10px;
+	vertical-align:middle;
+}
+
+.personal .order_detail table td.o_pic
+{
+	text-align:center;
+	border-right:none;
+}
+
+.personal .order_detail table td.o_product
+{
+	text-align:left;
+	border-left:none;
+}
+
+.personal .order_detail table td.o_product .mname
+{
+	padding-bottom:4px;
+}
+
+.personal .order_detail table td.o_product span
+{
+	color:#888888;
+}
+
+.personal .order_detail table td.o_count
+{
+	text-align:center;
+}
+/*
+.personal .order_detail table td.o_count span.field
+{
+	display:inline-block;
+	width:40px;
+	background:#f2f2f2;
+	border-radius:5px;
+	padding:2px 0;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.4);
+}
+*/
+.personal .order_detail table td.o_count .field
+{
+	display:inline-block;
+	width:32px;
+	background:#f2f2f2;
+	border-radius:5px;
+	padding:2px 4px;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.4);
+	border: none;
+	text-align: center;
+}
+
+.personal .order_detail table td.o_count .changer
+{
+	width: 12px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.personal .order_detail table td.o_price
+{
+	text-align:right;
+}
+
+.personal .order_detail table td.o_price .real_price
+{
+	text-decoration: line-through;
+    color: gray;
+    font-size: 11px;
+}
+
+.personal .order_detail table td.o_summ
+{
+	text-align:right;
+}
+
+.personal .order_detail table td.o_status
+{
+	text-align:center;
+}
+
+.personal .order_detail table td.o_status .saled
+{
+	color:#df1000;
+}
+
+.personal .order_detail table td.o_status .instock
+{
+	color:#008d8d;
+}
+
+.personal .order_detail table td.o_status .fororder
+{
+	color:#ff8700;
+}
+
+.personal .order_detail table td.o_actions
+{
+	text-align:center;
+}
+
+.personal .order_detail table td.o_actions a
+{
+	display:block;
+	padding:0 10px;
+}
+
+.personal .order_detail table td.o_actions a.tobasket
+{
+	line-height:28px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/to_basket.gif) repeat-x;
+	color:#fff;
+}
+
+.personal .order_detail table td.o_actions a.toorder
+{
+	line-height:28px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/to_order.gif) repeat-x;
+	color:#fff;
+}
+
+.personal .order_detail table td.o_actions a.tosaled
+{
+	line-height:28px;
+	background:url(http://tumen.espartos.ru/bitrix/templates/espartos/images/bg/to_saled.gif) repeat-x;
+	color:#fff;
+	cursor:default;
+}
+
+.personal .order_detail table td.o_actions .remove_position
+{
+	line-height:28px;
+	background: none; /*url(images/bg/to_saled.gif) repeat-x;*/
+	color: #2E2D2D;
+	cursor: pointer;
+	display: block;
+	padding: 0px 10px;
+	border: none;
+	width: 100%;
+}
+
+.personal .order_detail table td.o_actions .remove_position .cross {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 5px 0 0;
+}
+
+.personal .cart_bottom {
+	margin: 10px 0;
+}
+
+.personal .cart_bottom > p {
+	padding: 0;
+}
+
+.personal .cart_bottom, .personal .cart_bottom * {
+	text-align: right;
+}
+
+.personal .recount_button {
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	color:#fff;
+	font-size: 14px;
+	padding: 0 6px;
+	margin: 0 0 10px 0;
+	border: none;
+	cursor: pointer;
+	background: #f8c600;
+	background: -moz-linear-gradient(top, #f8c600 0%, #ec8d00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8c600), color-stop(100%,#ec8d00));
+	background: -webkit-linear-gradient(top, #f8c600 0%,#ec8d00 100%);
+	background: -o-linear-gradient(top, #f8c600 0%,#ec8d00 100%);
+	background: -ms-linear-gradient(top, #f8c600 0%,#ec8d00 100%);
+	background: linear-gradient(to bottom, #f8c600 0%,#ec8d00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8c600', endColorstr='#ec8d00',GradientType=0 );
+}
+
+.personal .recount_button img {
+	vertical-align: -6%;
+	margin: 0 6px 0 0;
+}
+
+.personal .cart_bottom .without_discount {
+	color: #4a4a4a;
+	font-size: 16px;
+}
+
+.personal .cart_bottom .without_discount .price {
+	color: #2f2f2f;
+	font-size: 20px;
+}
+
+.personal .cart_bottom .without_discount .price sup {
+	font-size: 12px;
+	border-bottom: 4px solid #0aadad;
+	margin: 0 2px;
+	vertical-align: 6px;
+}
+
+.personal .cart_bottom .final_price {
+	color: #2f2f2f;
+	font-size: 18px;
+}
+
+.personal .cart_bottom .final_price .discount {
+	color: #c5c5c5;
+	font-size: 20px;
+	text-decoration: line-through;
+	margin: 0 5px;
+}
+
+.personal .cart_bottom .final_price .discount sup {
+	font-size: 12px;
+	border-bottom: 4px solid #c5c5c5;
+	margin: 0 3px;
+	vertical-align: 6px;
+}
+
+.personal .cart_bottom .final_price .price {
+	color: #2f2f2f;
+	font-size: 33px;
+}
+
+.personal .cart_bottom .final_price .price sup {
+	font-size: 20px;
+	border-bottom: 7px solid #0aadad;
+	margin: 0 4px;
+	vertical-align: 10px;
+}
+
+.personal .cart_bottom .your_economy {
+	font-size: 14px;
+	color: #0AADAD;
+    margin: 6px 0 0 0;
+}
+
+.personal .cart_bottom .your_economy .price sup {
+    font-size: 10px;
+	border-bottom: 3px solid #0aadad;
+	margin: 0 2px;
+	vertical-align: 6px;
+}
+
+#order_form_content .order-errors {
+    color: red;
+}
+
+#order_form_content .order-errors p {
+    text-indent: 0;
+}
+
+.bx-auth-table, .bx-forgotpass-table, .bx-registration-table
+{
+	margin-bottom:15px;
+}
+
+.bx-forgotpass-table td, .bx-changepass-table td, .bx-registration-table td {
+	padding:3px;
+}
+
+.bx-forgotpass-table thead td, .bx-changepass-table tfoot td, .bx-registration-table tfoot td
+{
+	padding-bottom:10px;
+}
+
+.bx-auth-table td, .bx-forgotpass-table td, .bx-changepass-table td, .bx-registration-table td
+{
+	padding-right:10px;
+	vertical-align:middle;
+}
+
+.bx-forgotpass-table tfoot td
+{
+	padding-left:54px;
+}
+
+.bx-auth-table input.bx-auth-input, .bx-forgotpass-table tbody td input, .bx-changepass-table tbody td input, .bx-registration-table tbody td input
+{
+	outline:none;
+	width:180px;
+	height:24px;
+	line-height:24px;
+	color:#768d8d;
+	border:1px solid #b2bebe;
+	border-radius:5px;
+	-webkit-box-shadow:0 0 3px #c2d2d2, inset 0 0 3px #cbcbcb;
+	-moz-box-shadow:0 0 3px #c2d2d2, inset 0 0 3px #cbcbcb;
+	box-shadow:0 0 3px #c2d2d2, inset 0 0 3px #cbcbcb;
+	background:#fff;
+	padding:0 10px;
+}
+
+.bx-auth-table .authorize-submit-cell input, .bx-forgotpass-table tfoot td input, .bx-changepass-table tfoot td input, .bx-registration-table tfoot td input
+{
+	outline:none;
+	width:80px;
+	height:30px;
+	line-height:30px;
+	color:#fff;
+	cursor: pointer;
+	border:2px solid #fff;
+	border-radius:5px;
+	-webkit-box-shadow:0 0 3px #ccc;
+	-moz-box-shadow:0 0 3px #ccc;
+	box-shadow:0 0 3px #ccc;
+	background-image: -webkit-linear-gradient(top, #4eb0b0, #018080)!important;
+	background-image: -moz-linear-gradient(top, #4eb0b0, #018080)!important;
+	background-image: -ms-linear-gradient(top, #4eb0b0, #018080)!important;
+	background-image: -o-linear-gradient(top, #4eb0b0, #018080)!important;
+	background-image: linear-gradient(top, #4eb0b0, #018080)!important;
+}
+
+.bx-changepass-table tfoot td input
+{
+	width:130px;
+}
+
+.bx-registration-table tfoot td input
+{
+	width:100px;
+}
+
+.breadcrumbs {
+	margin-bottom: 10px;
+}
+
+.drop-down-arrow {
+	background: url(http://tumen.espartos.ru/bitrix/templates/espartos/images/buttons/drop-down-arrow.png) 0px 0px no-repeat;
+	display: block;
+	float: right;
+	width: 19px;
+	height: 19px;
+	cursor: pointer;
+}
+
+.drop-down-arrow.arrow-reversed {
+	background-position: 0px -19px;
+}
+
+
+
+
+/*********************************form styles********************************/
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('http://tumen.espartos.ru/bitrix/templates/espartos/fonts/mrr-webfont.eot');
+    src: url('http://tumen.espartos.ru/bitrix/templates/espartos/fonts/mrr-webfont.eot?') format('embedded-opentype'),
+         url('http://tumen.espartos.ru/bitrix/templates/espartos/fonts/mrr-webfont.woff') format('woff'),
+         url('http://tumen.espartos.ru/bitrix/templates/espartos/fonts/mrr-webfont.ttf') format('truetype'),
+         url('http://tumen.espartos.ru/bitrix/templates/espartos/fonts/mrr-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadProItalic';
+    src: url('http://tumen.espartos.ru/bitrix/templates/espartos/fonts/myriadpro-it-webfont.eot');
+    src: url('http://tumen.espartos.ru/bitrix/templates/espartos/fonts/myriadpro-it-webfont.eot?') format('embedded-opentype'),
+         url('http://tumen.espartos.ru/bitrix/templates/espartos/fonts/myriadpro-it-webfont.woff') format('woff'),
+         url('http://tumen.espartos.ru/bitrix/templates/espartos/fonts/myriadpro-it-webfont.ttf') format('truetype'),
+         url('http://tumen.espartos.ru/bitrix/templates/espartos/fonts/myriadpro-it-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clear{
+	clear:both;
+	font-size:0;
+	padding:0
+}
+
+.nuclear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+.nuclear{
+	zoom: 1;
+	display: block;
+}
+
+.form-wrap{
+	padding: 55px 0;
+	/*height: auto !important;     
+	min-height: 550px !important; 
+	height: 550px;*/
+	font-size: 13px;
+	font-family: 'MyriadProRegular';
+}
+
+.form-wrap.articul_request_form_wrap{
+	padding: 25px 0;
+}
+
+.form-wrap .form{
+	margin: 0px auto;
+	width: 440px;
+	padding: 30px 120px;
+	background: #fff;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 4px 3px 10px 1px #cccccc;
+	-webkit-box-shadow: 4px 3px 10px 1px #cccccc;
+	box-shadow: 4px 3px 10px 1px #cccccc;
+}
+
+.form-wrap .form .hd{
+	text-align: center;
+	font-size: 20px;
+	margin: 0 0 37px 0;
+	color: #2F2F2F;
+}
+
+.form-wrap .form-line{
+	padding: 0 0 25px 0;
+	position: relative;
+}
+
+.form-wrap .form-line label{
+	display: block;
+	float: left;
+	max-width: 180px;
+	line-height: 27px;
+	color: #8E8E8E;
+	font-size: 14px;
+}
+
+.form-wrap .form-line input[type="text"],
+.form-wrap .form-line input[type="password"]
+{
+	float: right;
+	width: 214px;
+	height: 19px;
+	line-height: 19px;
+	padding: 3px 10px;
+	color: #000;	
+	border: 1px solid #EAEAEA;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease-in-out; 
+	-moz-transition: all 0.3s ease-in-out; 
+	-o-transition: all 0.3s ease-in-out; 
+	transition: all 0.3s ease-in-out;
+}
+
+.form-wrap .form-line input[type="text"]:focus,
+.form-wrap .form-line input[type="password"]:focus
+{
+	-moz-box-shadow: 0 0 3px 1px #089090;
+	-webkit-box-shadow: 0 0 3px 1px #089090;
+	box-shadow: 0 0 3px 1px #089090;
+	border: 1px solid #089090;
+}
+
+.form-wrap .form-line input[type="text"].input_error,
+.form-wrap .form-line input[type="password"].input_error
+{
+	-moz-box-shadow: 0 0 3px 1px red;
+	-webkit-box-shadow: 0 0 3px 1px red;
+	box-shadow: 0 0 3px 1px red;
+	border: 1px solid red;
+	background-color: pink;
+}
+
+.form-wrap .form-line .note{
+	display: inline-block;
+	position: absolute;
+	font-size: 12px;	
+	top: 30px;
+	left: 205px;
+	color: #089090;
+	font-family: 'MyriadProItalic';
+}
+
+.form-wrap .form-line .note.red{
+	color: #BA350C;
+}
+
+.form-wrap .form-but{
+	/*margin: 35px auto 0px auto;*/
+	margin: 0 auto;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	border: none;	
+	height: 37px;
+	padding: 0 10px;
+	display: block;
+	background: -moz-linear-gradient( top, #0AACAE, #098F90 );
+	background: -webkit-linear-gradient( top, #0AACAE, #098F90 );
+	background: -o-linear-gradient( top, #0AACAE, #098F90 );
+	background: -khtml-linear-gradient( top, #0AACAE, #098F90 );
+	background: -ms-linear-gradient( top, #0AACAE, #098F90 );
+	background: linear-gradient( top, #0AACAE, #098F90 );
+	filter: progid:DXImageTransform.Microsoft.gradient(StartColorStr=#0AACAE, EndColorStr=#098F90, GradientType=0);
+}
+
+.form-wrap .form-but:hover{
+	background: -moz-linear-gradient( top, #098F90, #0AACAE );
+	background: -webkit-linear-gradient( top, #098F90, #0AACAE );
+	background: -o-linear-gradient( top, #098F90, #0AACAE );
+	background: -khtml-linear-gradient( top, #098F90, #0AACAE );
+	background: -ms-linear-gradient( top, #098F90, #0AACAE );
+	background: linear-gradient( top, #098F90, #0AACAE );
+	filter: progid:DXImageTransform.Microsoft.gradient(StartColorStr=#098F90, EndColorStr=#0AACAE, GradientType=0);
+}
+
+.form-wrap .form-but:active{
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+
+.form-wrap h2 {
+    text-align: center;
+}
+
+.form-wrap .form_success{
+	display: none;
+    margin: 30px 0 0 0;
+}
+
+.form-wrap .success_text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+}
+/*********************************end form styles********************************/
+
+
+.filter_links_list {
+    position: absolute;
+    left: -9999px;
+}
+
+.content .category_text {
+    margin-top: 10px;
+}
+
+.content .category_text p
+{
+text-indent:0;
+}
+
+/* === Доставка и оплата таблица Абакан === */
+
+table.samovizov.towns tr td {
+	width: 33% !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* ^^^ Доставка и оплата таблица Абакан ^^^ */
+
+
+/* ? WARNING MESSAGE ? */
+
+.warning {
+	margin-top: 15px;
+	padding: 13px;
+	border: 1px solid rgba(25, 140, 135, 0.5);
+	background: none repeat scroll 0% 0% rgba(25, 140, 135, 0.1);
+	box-sizing: border-box;
+	color: rgba(25, 140, 135, 1);
+	font-size: 14px;
+	line-height: 25px;
+	overflow: hidden;
+}
+
+.warning img {
+	width: 25px;
+	margin-right: 15px;
+	vertical-align: middle;
+	float: left;
+}
+
+.warning + .sortpanel {
+margin-top: 30px;
+}
+
+/* ? WARNING MESSAGE ? */
+
+
+/* ? REMONTNIKAM ? */
+
+.menu .items ul li .icon {
+	height: 26px;
+	width: 26px;
+}
+
+.remontnikam p.skidki {
+	font-size: 15px;
+	font-weight: bold;
+	color:#188b88;
+}
+
+.remontnikam table {
+	width: 100%;
+}
+
+.remontnikam table thead tr th, .remontnikam table tbody tr td {
+	width: 33.333%;
+	padding: 10px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.remontnikam table thead tr th {
+	font-weight: bold;
+}
+
+.remontnikam .sotrudnichestvo p {
+	text-align: center;
+	font-size: 17px;
+}
+
+.remontnikam .sotrudnichestvo p.phone_number, .remontnikam .sotrudnichestvo p.e-mail {
+	font-size: 22px;
+	line-height: 20px;
+}
+
+/* ? REMONTNIKAM ? */
+
+
+
+/* ? 9_MAY ? */
+
+.may9 {
+height:50px;
+top:100px;
+left:130px;
+position:absolute;
+z-index:1;
+}
+
+/* ? 9_MAY ? */
+
+
+/* v KARTOCHKA (NEW CSS) v */
+
+.row.vert_al .lc {
+	margin-top: 18px;
+}
+
+.row.vert_al .rc img {
+	height: 50px;
+    border: 3px solid #ffffff;
+    border-radius: 6px;
+}
+
+.warn_mess {
+	padding: 10px 0px 10px 20px;
+	font-size: 11px;
+	position: relative;
+	text-align: left;
+}
+
+.warn_mess:before {
+	height: 13px;
+	width: 13px;
+	content: "!";
+	background: #ff8800;
+	border-radius: 50%;
+	font-size: 11px;
+	line-height: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	left: 2px;
+}
+
+/* ^ KARTOCHKA (NEW CSS) ^ */
+
+
+/* ? MAIN_PAGE ? */
+
+/* ? only lists wrp ? */
+.lists_wrp {
+	padding: 15px 40px;
+}
+
+.lists_wrp table {
+	width: 100%;
+}
+
+.lists_wrp table td {
+	border: none;
+	text-align: center;
+	vertical-align: top;
+}
+
+.lists_wrp table td + td {
+	border-left: 1px dotted #c0c0c0;
+	padding: 0 0 0 10px;
+}
+
+.lists_wrp table td .proizvod_wrp {
+	display: inline-block;
+	text-align: left;
+}
+
+.lists_wrp table td .proizvod_wrp .country_link {
+padding-bottom: 10px;
+}
+
+.lists_wrp table td .proizvod_wrp .country_link a {
+	font: 300 12px/20px 'Tahoma', 'Arial', sans-serif;
+	color: #393939;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.lists_wrp table td .proizvod_wrp .country_link a img {
+	height: 30px;
+	widht: 30px;
+	margin-top: -15px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: -40px;
+}
+
+.lists_wrp table td .proizvod_wrp .caption_link {
+	margin-top: 5px;
+}
+
+.lists_wrp table td .proizvod_wrp .country_link + .caption_link {
+	margin-top: 0px;
+}
+
+.lists_wrp table td .proizvod_wrp .caption_link a {
+	font: 400 12px/18px 'Tahoma', 'Arial', sans-serif;
+	color: #058383;
+}
+
+.lists_wrp table td .proizvod_wrp ul.proizvod_list {
+	margin: 0px;
+	padding: 0px;
+}
+
+.lists_wrp table td .proizvod_wrp ul.proizvod_list > li {
+	margin: 0px;
+	padding: 0px;
+	background: transparent;
+}
+
+.lists_wrp table td .proizvod_wrp ul.proizvod_list > li a {
+	padding-left: 10px;
+	font: 300 14px/20px 'Tahoma', 'Arial', sans-serif;
+	color: #393939;
+	vertical-align: middle;
+	position: relative;
+}
+
+.lists_wrp table td .proizvod_wrp ul.proizvod_list > li a:before {
+	height: 4px;
+	width: 4px;
+	margin-top: -1px;
+	border-radius: 50%;
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	background: #058383;
+}
+
+.lists_wrp table td ul.big_icons {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+.lists_wrp table td ul.big_icons li {
+	margin: 0px;
+	padding: 0px;
+	background: transparent;
+}
+
+.lists_wrp table td ul.big_icons li a {
+	/*height: 40px;*/
+	height: auto;
+	width: 150px;
+	display: block;
+	font-size: 0px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.lists_wrp table td ul.big_icons li a .img_wrp {
+	/*height: 40px;*/
+	height: 26px;
+	margin-right: 5px;
+	/*line-height: 40px;*/
+	line-height: 26px;
+	float: left;	
+}
+
+.lists_wrp table td ul.big_icons li a .img_wrp img {
+	vertical-align: middle;
+	height: 20px;
+}
+
+.lists_wrp table td ul.big_icons li a .caption_wrp {
+	/*height: 40px;*/
+	height: auto;
+	max-width: 110px;
+	float: left;
+	/*line-height: 40px;*/
+	line-height: 26px;
+}
+
+.lists_wrp table td ul.big_icons li a .img_wrp img.icon_img{display:inline-block;}
+.lists_wrp table td ul.big_icons li a .img_wrp img.icon_hover{display:none;}
+.lists_wrp table td ul.big_icons li a:hover .img_wrp img.icon_img{display:none;}
+.lists_wrp table td ul.big_icons li a:hover .img_wrp img.icon_hover{display:inline-block;}
+.lists_wrp table td ul.big_icons li a:hover .caption_wrp .caption{color:#058383;}
+
+.lists_wrp table td ul.big_icons li a .caption_wrp .caption {
+	display: inline-block;
+	/*font: 300 16px/20px 'Tahoma', 'Arial', sans-serif;*/
+	font: 300 12px/18px 'Tahoma', 'Arial', sans-serif;
+	color: #393939;
+	vertical-align: middle;
+}
+
+.lists_wrp table td ul.small_list {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+.lists_wrp table td ul.small_list li {
+	/*width: 150px;*/
+	width: 125px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	background: transparent;
+}
+
+.lists_wrp table td ul.small_list li + li {
+	margin-top: 5px;
+}
+
+.lists_wrp table td ul.small_list li * {
+	vertical-align: middle;
+}
+
+.lists_wrp table td ul.small_list li a {
+	/*max-width: 150px;*/
+	max-width: 125px;
+	display: inline-block;
+	font: 400 12px/18px 'Tahoma', 'Arial', sans-serif;
+	color: #393939;
+}
+
+.lists_wrp table td ul.small_list li a:hover {
+	color: #058383;
+}
+
+.lists_wrp table td ul.small_list li a img {
+	margin-right: 5px;
+}
+
+.lists_wrp table td ul.small_list li a img.color_icon {
+	display: none;
+}
+
+.lists_wrp table td ul.small_list li a .color_round {
+	height: 15px;
+	width: 15px;
+	margin-right: 5px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.lists_wrp table td ul.small_list li a .color_round.red {
+	background: #ff0000;
+}
+
+.lists_wrp table td ul.small_list li a .color_round.green {
+	background: #00ff00;
+}
+
+.lists_wrp table td ul.small_list li a .color_round.blue {
+	background: #0000ff;
+}
+/* ? only lists_wrp ? */
+
+/* ? only footer ? */
+.footer_menu,
+.footer_bottom {
+	background: rgba(60,60,60,.8);
+}
+
+.footer_menu a,
+.footer_menu a .caption {
+	color: #ffffff !important;
+	text-decoration: none;
+}
+
+.footer_menu a:hover,
+.footer_menu a:hover .caption {
+	text-decoration: underline;
+}
+
+.footer_menu .buttons_wrp {
+	background: #058383;
+}
+
+.footer_menu ul.btns {
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px;
+	display: table;
+	font-size: 0px;
+}
+
+
+.footer_menu ul.btns > li {
+	height: 55px;
+	width: auto;
+	margin: 0px;
+	padding: 0px 30px;
+	display: table-cell;
+	font: 300 14px/55px 'Tahoma', 'Arial', sans-serif;
+	color: #ffffff;
+	text-align: center;
+	verticl-align: middle;
+	text-transform: uppercase;
+	position: relative;
+	cursor: pointer;
+	background: transparent;
+}
+
+.footer_menu ul.btns > li + li:after {
+	height: 45px;
+	width: 0px;
+	border-width: 15px 0px 15px 1px;
+	border-style: solid;
+	border-color: transparent;
+	border-left-color: #ffffff;
+	content: '';
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	-webkit-transition: all .5s ease-in-out 0s;
+	-moz-transition: all .5s ease-in-out 0s;
+	-ms-transition: all .5s ease-in-out 0s;
+	-o-transition: all .5s ease-in-out 0s;
+	transition: all .5s ease-in-out 0s;
+}
+
+.footer_menu ul.btns > li:hover:after,
+.footer_menu ul.btns > li:hover + li:after {
+	border-left-color: rgba(255,255,255,.5);
+}
+
+.footer_menu ul.btns > li:before {
+	height: 100%;
+	width: 100%;
+	margin-left: 1px;
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background: transparent;
+	-webkit-transition: all .5s ease-in-out 0s;
+	-moz-transition: all .5s ease-in-out 0s;
+	-ms-transition: all .5s ease-in-out 0s;
+	-o-transition: all .5s ease-in-out 0s;
+	transition: all .5s ease-in-out 0s;
+}
+
+.footer_menu ul.btns > li:hover:before,
+.footer_menu ul.btns > li.selected:before {
+	height: 3px;
+	background: #f7941d;
+}
+
+.footer_menu ul.menu_content {
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.footer_menu ul.menu_content > li {
+	margin: 0px;
+	padding: 0px;
+	display: none;
+	background: transparent;
+}
+
+
+.footer_bottom .info
+{
+	width: 1000px;
+	margin: 0px auto;
+	padding: 20px 0px;
+}
+
+.footer_bottom .info .logo
+{
+	width:159px;
+	height:56px;
+	float:left;
+	padding:0 50px 0 0;
+}
+
+.footer_bottom .info .logo a
+{
+	display:block;
+	width:159px;
+	height:56px;
+}
+
+.footer_bottom .info .counter
+{
+	width:88px;
+	height:31px;
+	float:right;
+	padding-top:28px;
+}
+
+.footer_bottom .info .copyrights
+{
+	width:630px;
+	float:left;
+	text-align:center;
+	font-size:11px;
+	line-height:16px;
+	color:#d9d9d9;
+	padding-top:7px;
+}
+
+.footer_bottom .info .copyrights .shop
+{
+	font-size:12px;
+	padding-bottom:5px;
+}
+/* ? only footer ? */
+
+/* ? MAIN_PAGE ? */
+
+
+
+.lists_wrp table td + td {
+	border: none;
+	position: relative;
+}
+
+.lists_wrp table td + td:before {
+	height: 100%;
+	width: 1px;
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	/*background: linear-gradient(to bottom, transparent 1%, #ffffff 50%, transparent 99%);*/
+	background: linear-gradient(to bottom, transparent 1%, #393939 50%, transparent 99%);
+}
+
+.lists_wrp table td ul.big_icons li a {
+    width: 128px;
+}
+
+.lists_wrp table td ul.big_icons li a .caption_wrp {
+    max-width: 100px;
+}
+
+.lists_wrp table {
+width: auto;
+}
+
+.lists_wrp table td .proizvod_wrp {
+    padding-right: 10px;
+}
+
+
+
+
+
+
+/* v MAIN_BANNER v */
+
+.content .main_banner {
+	margin-bottom: 25px;
+}
+
+.content .main_banner .bjqs-slide img {
+	border-radius: 20px;
+}
+
+#content_banner ul.bjqs,
+#content_banner ul.bjqs li.bjqs-slide {
+	margin: 0px;
+	padding: 0px;
+	background: transparent;
+}
+
+#content_banner ul.bjqs li.bjqs-slide a {
+	border-radius: 20px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#content_banner ul.bjqs-controls.v-centered li a {
+	height: 60px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0px;
+	background-image: url('http://tumen.espartos.ru/bitrix/templates/espartos/images/slider_arrows.png');
+	background-repeat: no-repeat;
+}
+
+#content_banner ul.bjqs-controls.v-centered li.bjqs-prev a{background-position:right top;border-radius:0px 30px 30px 0px;}
+#content_banner ul.bjqs-controls.v-centered li.bjqs-prev a:hover{background-position:right center;}
+#content_banner ul.bjqs-controls.v-centered li.bjqs-prev a:active{background-position:right bottom;}
+#content_banner ul.bjqs-controls.v-centered li.bjqs-next a{background-position:left top;border-radius:30px 0px 0px 30px;}
+#content_banner ul.bjqs-controls.v-centered li.bjqs-next a:hover{background-position:left center;}
+#content_banner ul.bjqs-controls.v-centered li.bjqs-next a:active{background-position:left bottom;}
+
+#content_banner ol.bjqs-markers li,#content_banner p.bjqs-caption{display:none;}
+
+/* ^ MAIN_BANNER ^ */
+
+
+/* v BJQS-SLIDER DEFAULT v */
+ul.bjqs{position:relative;list-style:none;padding:0;margin:0;overflow:hidden;display:none;}
+li.bjqs-slide{position:absolute;display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style:none;padding:0;margin:0;width:100%;}
+ol.bjqs-markers.h-centered{text-align:center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+/* ^ BJQS-SLIDER DEFAULT ^ */
+
+.color_blue{color:#63fafa!important;}
+
+/* v BANNER_ITEM v */
+
+.banner_item {
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner_item img.bg_img {
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.banner_item .text_wrp img {
+	margin-right: 5px;
+	transition: all .2s ease-in-out 0s;
+}
+
+.banner_item .text_wrp {
+	padding: 5px 10px;
+	font-size: 16px;
+	line-height: 36px;
+	color: #ffffff;
+	text-align: left;
+	position: relative;
+	z-index: 1;
+	transition: all .2s ease-in-out 0s;
+}
+
+.banner_item:hover .text_wrp {
+	margin-left: 20px;
+	margin-right: -20px;
+}
+
+.banner_item:hover .text_wrp img {
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+/* ^ BANNER_ITEM ^ */

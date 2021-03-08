@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["CYKH\/"]); }
+
+__d("getFbtResult",["FbtResult","FbtResultGK","InlineFbtResult","getUnwrappedFbt"],(function(a,b,c,d,e,f){function a(a){var c=b("getUnwrappedFbt")(a);if(c!=null)return c;c=a.contents;var d=a.patternString,e=a.patternHash,f=b("FbtResultGK").inlineMode;return f!=null&&f!=="NO_INLINE"?new(b("InlineFbtResult"))(c,f,d,e):b("FbtResult").get(a)}e.exports=a}),null);

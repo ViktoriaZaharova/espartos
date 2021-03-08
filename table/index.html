@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<title>Таблица + Адаптив</title>
+
+	<!--<script src="js/jquery-3.2.1.min.js"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<section class="section">
+		<div class="container">
+			<div class="local_pages_wrp">
+				<div class="local_pages_tabs_wrp">
+					<div class="local_page_tab_wrp"><a href="#" class="local_page_tab_btn">В работе</a></div>
+					<div class="local_page_tab_wrp"><a href="#" class="local_page_tab_btn">Переданы</a></div>
+				</div>
+				<div class="local_pages_content_wrp">
+					<div class="local_page_content_tab_wrp">
+						<div class="table_wrp">
+							<table class="table_responsive">
+								<thead>
+									<tr>
+										<th>Номер<br />п/п</th>
+										<th>Номер<br />заказа</th>
+										<th>Менеджер</th>
+										<th>Поставщик</th>
+										<th>ТК</th>
+										<th>Примечание</th>
+										<th>Номер<br />отслеживания</th>
+										<th>Выполнение</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td data-caption="№">1</td>
+										<td data-caption="Заказ №">14562</td>
+										<td data-caption="Менеджер:">Ксения</td>
+										<td data-caption="Поставщик:">Афонин Алексей Владимирович - крутой чувачок морячок червячок и стручок.</td>
+										<td data-caption="ТК:">СДЭК</td>
+										<td data-caption="Примечание:">Мы вас приметили! Имейте в виду! Мы вас приметили! Имейте в виду! Мы вас приметили! Имейте в виду! Мы вас приметили! Имейте в виду!</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">2</td>
+										<td data-caption="Заказ №">14568</td>
+										<td data-caption="Менеджер:">Ксения</td>
+										<td data-caption="Поставщик:">Немеронов А.В.</td>
+										<td data-caption="ТК:">ПЭК</td>
+										<td data-caption="Примечание:">-</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">3</td>
+										<td data-caption="Заказ №">14569</td>
+										<td data-caption="Менеджер:">Снежанна</td>
+										<td data-caption="Поставщик:">Афонин А.В.</td>
+										<td data-caption="ТК:">Новая Почта</td>
+										<td data-caption="Примечание:">Мы вас приметили! Имейте в виду!</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">4</td>
+										<td data-caption="Заказ №">14612</td>
+										<td data-caption="Менеджер:">Ксения</td>
+										<td data-caption="Поставщик:">Немеронов А.В.</td>
+										<td data-caption="ТК:">СДЭК</td>
+										<td data-caption="Примечание:">-</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">5</td>
+										<td data-caption="Заказ №">14623</td>
+										<td data-caption="Менеджер:">Снежанна</td>
+										<td data-caption="Поставщик:">Афонин А.В.</td>
+										<td data-caption="ТК:">ПЭК</td>
+										<td data-caption="Примечание:">Мы вас приметили! Имейте в виду!</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">6</td>
+										<td data-caption="Заказ №">14629</td>
+										<td data-caption="Менеджер:">Снежанна</td>
+										<td data-caption="Поставщик:">Немеронов А.В.</td>
+										<td data-caption="ТК:">Новая почта</td>
+										<td data-caption="Примечание:">-</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="local_page_content_tab_wrp">
+						<div class="table_wrp">
+							<table class="table_responsive">
+								<thead>
+									<tr>
+										<th>Номер<br />п/п</th>
+										<th>Номер<br />заказа</th>
+										<th>Менеджер</th>
+										<th>Поставщик</th>
+										<th>ТК</th>
+										<th>Примечание</th>
+										<th>Номер<br />отслеживания</th>
+										<th>Выполнение</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td data-caption="№">1</td>
+										<td data-caption="Заказ №">14562</td>
+										<td data-caption="Менеджер:">Ксения</td>
+										<td data-caption="Поставщик:">Афонин А.В.</td>
+										<td data-caption="ТК:">СДЭК</td>
+										<td data-caption="Примечание:">Мы вас приметили! Имейте в виду!</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">2</td>
+										<td data-caption="Заказ №">14568</td>
+										<td data-caption="Менеджер:">Ксения</td>
+										<td data-caption="Поставщик:">Немеронов А.В.</td>
+										<td data-caption="ТК:">ПЭК</td>
+										<td data-caption="Примечание:">-</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">3</td>
+										<td data-caption="Заказ №">14569</td>
+										<td data-caption="Менеджер:">Снежанна</td>
+										<td data-caption="Поставщик:">Афонин А.В.</td>
+										<td data-caption="ТК:">Новая Почта</td>
+										<td data-caption="Примечание:">Мы вас приметили! Имейте в виду!</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">4</td>
+										<td data-caption="Заказ №">14612</td>
+										<td data-caption="Менеджер:">Ксения</td>
+										<td data-caption="Поставщик:">Немеронов А.В.</td>
+										<td data-caption="ТК:">СДЭК</td>
+										<td data-caption="Примечание:">-</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">5</td>
+										<td data-caption="Заказ №">14623</td>
+										<td data-caption="Менеджер:">Снежанна</td>
+										<td data-caption="Поставщик:">Афонин А.В.</td>
+										<td data-caption="ТК:">ПЭК</td>
+										<td data-caption="Примечание:">Мы вас приметили! Имейте в виду!</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">6</td>
+										<td data-caption="Заказ №">14629</td>
+										<td data-caption="Менеджер:">Снежанна</td>
+										<td data-caption="Поставщик:">Немеронов А.В.</td>
+										<td data-caption="ТК:">Новая почта</td>
+										<td data-caption="Примечание:">-</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">4</td>
+										<td data-caption="Заказ №">14612</td>
+										<td data-caption="Менеджер:">Ксения</td>
+										<td data-caption="Поставщик:">Немеронов А.В.</td>
+										<td data-caption="ТК:">СДЭК</td>
+										<td data-caption="Примечание:">-</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">5</td>
+										<td data-caption="Заказ №">14623</td>
+										<td data-caption="Менеджер:">Снежанна</td>
+										<td data-caption="Поставщик:">Афонин А.В.</td>
+										<td data-caption="ТК:">ПЭК</td>
+										<td data-caption="Примечание:">Мы вас приметили! Имейте в виду!</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+									<tr>
+										<td data-caption="№">6</td>
+										<td data-caption="Заказ №">14629</td>
+										<td data-caption="Менеджер:">Снежанна</td>
+										<td data-caption="Поставщик:">Немеронов А.В.</td>
+										<td data-caption="ТК:">Новая почта</td>
+										<td data-caption="Примечание:">-</td>
+										<td data-caption="Номер отслеживания:">
+											<div class="input_accept_btn_wrp">
+												<input type="text" class="table_input_style" />
+												<button class="input_accept_btn">Сохранить</button>
+											</div>
+										</td>
+										<td data-caption="Выполнение:"><label class="check_label"><input type="checkbox" class="check_input" /><span class="check_caption">Да</span></label></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
