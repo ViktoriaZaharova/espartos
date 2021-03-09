@@ -11,6 +11,10 @@ body,
     .select_order_parameters_wrp .step_wrp {
         width: 540px;
     }
+
+    .card-product {
+        margin-right: 4px;
+    }
 }
 @media (max-width: 1600px) {
     .basket_order_parametrs_wrp .right_order_total_info_wrp {
@@ -72,7 +76,7 @@ body,
     }
 
     header .search_wrp {
-        max-width: 380px;
+        max-width: 350px;
     }
 }
 @media (max-width: 1400px) {
@@ -216,7 +220,7 @@ body,
     }
 
     header .search_wrp {
-        max-width: 300px;
+        max-width: 290px;
     }
 
     .list-sort, .list-sort__item {
@@ -694,6 +698,10 @@ body,
 
     .list-sort__item {
         padding: 7px;
+    }
+
+    .card-product {
+        margin-right: 0;
     }
 }
 @media (max-width: 700px) {
