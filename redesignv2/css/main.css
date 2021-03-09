@@ -3234,7 +3234,7 @@ main {
 .box-colors-product {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
 
     color: #8A8484;
@@ -3243,6 +3243,9 @@ main {
 
 .box-colors-product p {
     margin: 0 10px 0 0;
+    height: 27px;
+    display: flex;
+    align-items: center;
 }
 
 .list-colors a {
@@ -3255,11 +3258,16 @@ main {
 }
 
 .list-colors li {
-    margin: 0 14px 0 0;
+    margin: 0 5px 3px 0;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .list-colors li:last-child {
-    margin: 0;
+    margin: 0 0 3px;
 }
 
 .list-colors a:hover, .list-colors a:focus, .list-colors a.active {
