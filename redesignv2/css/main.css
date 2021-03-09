@@ -5522,6 +5522,7 @@ a {
     height: 45px;
     max-width: 220px;
     width: 100%;
+    font-weight: 500;
 }
 
 .btn-catalog:hover {
