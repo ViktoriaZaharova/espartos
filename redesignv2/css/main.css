@@ -806,7 +806,6 @@ select.input_style {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-weight: 500;
     line-height: 19px;
     color: #ffffff;
     text-align: center;
@@ -915,9 +914,9 @@ select.input_style {
     height: 5px;
 }
 
-.location_btn:hover .svg-icon {
-    stroke: #ffffff;
-}
+/*.location_btn:hover .svg-icon {*/
+/*    stroke: #ffffff;*/
+/*}*/
 
 .location_btn:active .svg-icon {
     stroke: rgba(255, 255, 255, 0.5);
@@ -3212,6 +3211,7 @@ main {
     max-width: 177px;
     width: 100%;
     border: none;
+    font-weight: 600;
 }
 
 .add_to_basket_btn:hover {
@@ -3227,9 +3227,22 @@ main {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
+}
 
+.box-colors-product {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    color: #8A8484;
+    font-size: 13px;
+}
+
+.box-colors-product p {
+    margin: 0 10px 0 0;
 }
 
 .list-colors a {
@@ -3280,7 +3293,7 @@ main {
 }
 
 .rating-box__val {
-	margin: 0 0 0 15px;
+	margin: 0 0 0 auto;
 	color: #8A8484;
 }
 
@@ -5581,7 +5594,7 @@ a {
     align-items: center;
     flex-wrap: wrap;
     color: #030303;
-		font-weight: 500;
+	font-weight: 500;
 }
 
 .list-sort {
@@ -5605,6 +5618,14 @@ a {
 .list-sort__item.active {
     color: #1AA79C;
     border-color: #1AA79C;
+}
+
+.list-sort .list-sort__item {
+    color: #000;
+}
+
+.number_of_goods_wrp {
+    font-weight: 500;
 }
 
 .catalog-category {
