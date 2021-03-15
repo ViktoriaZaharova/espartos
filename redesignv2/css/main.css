@@ -1212,6 +1212,7 @@ header .location_btn .btn_text {
     max-width: 209px;
     display: flex;
     align-items: center;
+    margin: -10px 0 0;
 }
 
 .logo_img {
@@ -2209,6 +2210,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     border-bottom: 1px solid #EBEBEB;
+    margin: 0 0 20px;
 }
 
 .favorite_category_btn_link {
@@ -3112,7 +3114,7 @@ main {
     align-items: stretch;
     flex-wrap: wrap;
     width: 100%;
-    margin: 20px 0 0;
+    /*margin: 20px 0 0;*/
 }
 
 .card-product {
@@ -3123,6 +3125,10 @@ main {
     background: #fff;
     overflow: hidden;
     box-shadow: 0 3px 17px rgba(0,0,0,.16);
+}
+
+.card-product:hover .plashki_wrp {
+    display: none;
 }
 
 .card-product__slider {
@@ -3312,6 +3318,12 @@ main {
 .jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group>svg {
 	width: 20px;
 	height: 20px;
+    fill: #FB7D00;
+    margin: 0 4px 0 0;
+}
+
+.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group>svg:last-child {
+    margin: 0;
 }
 
 .list-rating {
@@ -3682,6 +3694,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
+    transition: .3s ease;
 }
 
 .plashki_wrp .plashka {
@@ -5709,8 +5722,8 @@ a {
     height: 100%;
     border: none;
     font-size: 16px;
-    text-align: center;
-    padding: 0 25px;
+    text-align: left;
+    padding: 0 10px 0 30px;
 		font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
@@ -5883,6 +5896,10 @@ footer .string_text_wrp .email_link {
     border-radius: 8px;
     border: 1px solid #707070;
     background-color: #ffffff;
+}
+
+#catalog_popup {
+    max-width: 1088px;
 }
 
 .catalog_popup-wrapper {
@@ -6067,4 +6084,10 @@ footer .string_text_wrp .email_link {
 
 .js-tab-content.active {
     display: flex;
+}
+
+.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group.jq-ry-normal-group svg {
+    stroke: #FB7D00;
+    fill: #fff;
+    stroke-width: 2px;
 }

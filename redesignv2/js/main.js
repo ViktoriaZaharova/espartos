@@ -286,8 +286,8 @@ $(document).ready(function () {
         variableWidth: false,
         pauseOnHover: false,
         autoplay: false,
-        autoplaySpeed: 300,
-        fade: true
+        autoplaySpeed: 1000,
+        fade: true,
     });
     $(".card-product__slider").mouseover(function () {
         $(this).slick("play");
@@ -302,7 +302,10 @@ $(function () {
 
     $(".rateYo").rateYo({
         starWidth: '20px',
-        rating: 4.65,
+        rating: 2.2,
+        "starSvg": '<svg viewBox="0 0 22 21.02">\n' +
+            '        <path d="M12,2l3.09,6.26L22,9.27l-5,4.87,1.18,6.88L12,17.77,5.82,21.02,7,14.14,2,9.27,8.91,8.26Z" transform="translate(-1 -1)"></path>\n' +
+            '    </svg>'
     });
 
 });

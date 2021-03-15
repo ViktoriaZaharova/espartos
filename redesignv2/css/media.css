@@ -240,11 +240,7 @@ body,
     }
 
 }
-@media (max-width: 1100px) {
-    .card-product {
-        width: 300px;
-    }
-}
+
 
 @media (max-width: 1000px) {
     .main_footer_wrp {
