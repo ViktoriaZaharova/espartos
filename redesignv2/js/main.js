@@ -295,7 +295,6 @@ $(document).ready(function () {
     $(".card-product__slider").mouseout(function () {
         $(this).slick("pause");
     });
-
 });
 
 $(function () {
